@@ -1,0 +1,16 @@
+{
+  "resourceType" : "Organization",
+  "id" : "OrganizationExample",
+  "meta" : {
+    "profile" : ["https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-organization"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization OrganizationExample</b></p><a name=\"OrganizationExample\"> </a><a name=\"hcOrganizationExample\"> </a><a name=\"OrganizationExample-en-US\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pghd-organization.html\">PGHDOrganization</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/7477d1df-59af-4a47-b6fb-0ea842dcc0fd</p><p><b>name</b>: HealthOrg Inc.</p></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:uuid",
+    "value" : "7477d1df-59af-4a47-b6fb-0ea842dcc0fd"
+  }],
+  "name" : "HealthOrg Inc."
+}

@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/ValueSet/observation-category,4.0.1,draft,"2.16.840.1.113883.4.642.3.403",ObservationCategoryCodes,Observation Category Codes,"Observation Category codes.","StructureDefinition/pghd-observation","THO"
+https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset,0.1.0,draft,,BodySiteValueSet,PGHD Body Site,"A list of allowed body sites where the PGHD was collected from or device was placed.","StructureDefinition/pghd-observation","SCT"
+https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset,0.1.0,draft,,EncounterClassValueSet,Encounter Class ValueSet,"A list of encounter classes including Ambulatory and Home Health.","StructureDefinition/pghd-encounter","THO (V3)"
+https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset,0.1.0,draft,,LocationValueSet,PGHD Location Values,"Common patient locations during PGHD collection.","StructureDefinition/pghd-location","SCT"
+https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset,0.1.0,draft,,PostureValueSet,PGHD Posture Values,"Common patient postures during PGHD collection.","StructureDefinition/pghd-posture","SCT"

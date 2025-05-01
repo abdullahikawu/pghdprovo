@@ -1,0 +1,60 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "bodysite-valueset",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet bodysite-valueset</b></p><a name=\"bodysite-valueset\"> </a><a name=\"hcbodysite-valueset\"> </a><a name=\"bodysite-valueset-en-US\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>Left Wrist</td></tr><tr><td><a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>Right Wrist</td></tr><tr><td><a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>Left upper arm</td></tr><tr><td><a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>Right upper arm</td></tr><tr><td><a href=\"http://snomed.info/id/48979004\">48979004</a></td><td>Left Lower Leg</td></tr><tr><td><a href=\"http://snomed.info/id/32696007\">32696007</a></td><td>Right Lower Leg</td></tr><tr><td><a href=\"http://snomed.info/id/45048000\">45048000</a></td><td>Neck</td></tr><tr><td><a href=\"http://snomed.info/id/276361009\">276361009</a></td><td>Waist</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset",
+  "version" : "0.1.0",
+  "name" : "BodySiteValueSet",
+  "title" : "PGHD Body Site",
+  "status" : "draft",
+  "date" : "2025-04-30T16:38:09+01:00",
+  "publisher" : "Abdullahi Kawu",
+  "contact" : [{
+    "name" : "Abdullahi Kawu",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://example.org/example-publisher"
+    }]
+  }],
+  "description" : "A list of allowed body sites where the PGHD was collected from or device was placed.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "5951000",
+        "display" : "Left Wrist"
+      },
+      {
+        "code" : "9736006",
+        "display" : "Right Wrist"
+      },
+      {
+        "code" : "368208006",
+        "display" : "Left upper arm"
+      },
+      {
+        "code" : "368209003",
+        "display" : "Right upper arm"
+      },
+      {
+        "code" : "48979004",
+        "display" : "Left Lower Leg"
+      },
+      {
+        "code" : "32696007",
+        "display" : "Right Lower Leg"
+      },
+      {
+        "code" : "45048000",
+        "display" : "Neck"
+      },
+      {
+        "code" : "276361009",
+        "display" : "Waist"
+      }]
+    }]
+  }
+}

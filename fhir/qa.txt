@@ -1,0 +1,80 @@
+PGHDProvIG : Validation Results
+=========================================
+
+err = 1, warn = 23, info = 1
+IG Publisher Version: 1.8.23 Out of date - current version is 1.8.25
+Generated Wed Apr 30 16:51:05 WAT 2025. FHIR version 4.0.1 for fhir.PGHDProvIG#0.1.0 (canonical = https://w3id.org/pghdprovo/fhir)
+ Build Errors : 0 / 5 / 0
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Device-DeviceExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Encounter-EncounterExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ImplementationGuide-fhir.PGHDProvIG : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Observation-HeartRateExample : 1 / 2 / 2
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Observation-StepsExample : 0 / 3 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Organization-OrganizationExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Patient-PatientExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Practitioner-PractitionerExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Provenance-ProvenanceExample : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-observation-provenance : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-device : 0 / 0 / 2
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-encounter : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-location : 0 / 2 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-observation : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-organization : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-patient : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-posture : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-practitioner : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-provenance : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-bodysite-valueset : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-encounter-class-valueset : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-location-valueset : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-posture-valueset : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+== fsh-generated\resources\Device-DeviceExample.json ==
+WARNING: Device/DeviceExample: Device.identifier[0].system: URL value 'urn:uuid' does not resolve
+== fsh-generated\resources\Encounter-EncounterExample.json ==
+WARNING: Encounter/EncounterExample: Encounter.identifier[0].system: URL value 'urn:uuid' does not resolve
+== fsh-generated\resources\ImplementationGuide-fhir.PGHDProvIG.json ==
+== fsh-generated\resources\Observation-HeartRateExample.json ==
+ERROR: Observation/HeartRateExample: Observation.extension[1].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Sitting' for http://snomed.info/sct#30212006. There are no valid display names found for language(s) 'en-US'. Default display is 'Fowler's position'
+WARNING: Observation/HeartRateExample: Observation.identifier[0].system: URL value 'urn:uuid' does not resolve
+WARNING: Observation/HeartRateExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated\resources\Observation-StepsExample.json ==
+WARNING: Observation/StepsExample: Observation.identifier[0].system: URL value 'urn:uuid' does not resolve
+WARNING: Observation/StepsExample: Observation.value.ofType(Quantity): UCUM Codes that contain human readable annotations like {count} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked
+WARNING: Observation/StepsExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated\resources\Organization-OrganizationExample.json ==
+WARNING: Organization/OrganizationExample: Organization.identifier[0].system: URL value 'urn:uuid' does not resolve
+== fsh-generated\resources\Patient-PatientExample.json ==
+WARNING: Patient/PatientExample: Patient.identifier[0].system: URL value 'urn:uuid' does not resolve
+== fsh-generated\resources\Practitioner-PractitionerExample.json ==
+WARNING: Practitioner/PractitionerExample: Practitioner.identifier[0].system: URL value 'urn:uuid' does not resolve
+== fsh-generated\resources\Provenance-ProvenanceExample.json ==
+== fsh-generated\resources\StructureDefinition-observation-provenance.json ==
+WARNING: StructureDefinition/observation-provenance: StructureDefinition.context[0]: Review the extension type for observation-provenance: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-pghd-device.json ==
+INFORMATION: StructureDefinition/pghd-device: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated\resources\StructureDefinition-pghd-encounter.json ==
+== fsh-generated\resources\StructureDefinition-pghd-location.json ==
+WARNING: StructureDefinition/pghd-location: StructureDefinition.context[0]: Review the extension type for pghd-location: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-location'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-pghd-observation.json ==
+== fsh-generated\resources\StructureDefinition-pghd-organization.json ==
+== fsh-generated\resources\StructureDefinition-pghd-patient.json ==
+== fsh-generated\resources\StructureDefinition-pghd-posture.json ==
+WARNING: StructureDefinition/pghd-posture: StructureDefinition.context[0]: Review the extension type for pghd-posture: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-pghd-practitioner.json ==
+== fsh-generated\resources\StructureDefinition-pghd-provenance.json ==
+== fsh-generated\resources\ValueSet-bodysite-valueset.json ==
+WARNING: ValueSet/bodysite-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated\resources\ValueSet-encounter-class-valueset.json ==
+WARNING: ValueSet/encounter-class-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated\resources\ValueSet-location-valueset.json ==
+WARNING: ValueSet/location-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated\resources\ValueSet-posture-valueset.json ==
+WARNING: ValueSet/posture-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

@@ -1,0 +1,40 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BodySiteValueSet",
+      "title" : "PGHD Body Site",
+      "description" : "A list of allowed body sites where the PGHD was collected from or device was placed.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EncounterClassValueSet",
+      "title" : "Encounter Class ValueSet",
+      "description" : "A list of encounter classes including Ambulatory and Home Health.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"]
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LocationValueSet",
+      "title" : "PGHD Location Values",
+      "description" : "Common patient locations during PGHD collection.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PostureValueSet",
+      "title" : "PGHD Posture Values",
+      "description" : "Common patient postures during PGHD collection.",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}
