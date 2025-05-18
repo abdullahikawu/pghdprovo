@@ -1,4 +1,4 @@
-##PGHDProvo##
+**PGHDProvo**
 
 PGHD ontology represents key elements about the data, the provenance and data quality associated with PGHD shared with an EHR. The objective is to have an ontological formal representation of the provenance and contextual data related to PGHD shared with EHR, in order to offer clinicians a means to use PGHD data for decision making and treatment support.. [(https://w3id.org/pghdprovo)]
 
