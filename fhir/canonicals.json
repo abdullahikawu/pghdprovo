@@ -1,0 +1,107 @@
+[
+  {
+    "id" : "fhir.PGHDProvIG",
+    "type" : "ImplementationGuide",
+    "url" : "https://w3id.org/pghdprovo/fhir/ImplementationGuide/fhir.PGHDProvIG",
+    "version" : "0.1.0",
+    "name" : "PGHDProvIG"
+  },
+  {
+    "id" : "observation-provenance",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/observation-provenance",
+    "version" : "0.1.0",
+    "name" : "ObservationProvenance"
+  },
+  {
+    "id" : "pghd-device",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-device",
+    "version" : "0.1.0",
+    "name" : "PGHDDevice"
+  },
+  {
+    "id" : "pghd-encounter",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-encounter",
+    "version" : "0.1.0",
+    "name" : "PGHDEncounter"
+  },
+  {
+    "id" : "pghd-location",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-location",
+    "version" : "0.1.0",
+    "name" : "PGHDLocation"
+  },
+  {
+    "id" : "pghd-observation",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-observation",
+    "version" : "0.1.0",
+    "name" : "PGHDObservation"
+  },
+  {
+    "id" : "pghd-organization",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-organization",
+    "version" : "0.1.0",
+    "name" : "PGHDOrganization"
+  },
+  {
+    "id" : "pghd-patient",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-patient",
+    "version" : "0.1.0",
+    "name" : "PGHDPatient"
+  },
+  {
+    "id" : "pghd-posture",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-posture",
+    "version" : "0.1.0",
+    "name" : "PGHDPosture"
+  },
+  {
+    "id" : "pghd-practitioner",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-practitioner",
+    "version" : "0.1.0",
+    "name" : "PGHDPractitioner"
+  },
+  {
+    "id" : "pghd-provenance",
+    "type" : "StructureDefinition",
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-provenance",
+    "version" : "0.1.0",
+    "name" : "PGHDProvenance"
+  },
+  {
+    "id" : "bodysite-valueset",
+    "type" : "ValueSet",
+    "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset",
+    "version" : "0.1.0",
+    "name" : "BodySiteValueSet"
+  },
+  {
+    "id" : "encounter-class-valueset",
+    "type" : "ValueSet",
+    "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset",
+    "version" : "0.1.0",
+    "name" : "EncounterClassValueSet"
+  },
+  {
+    "id" : "location-valueset",
+    "type" : "ValueSet",
+    "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset",
+    "version" : "0.1.0",
+    "name" : "LocationValueSet"
+  },
+  {
+    "id" : "posture-valueset",
+    "type" : "ValueSet",
+    "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset",
+    "version" : "0.1.0",
+    "name" : "PostureValueSet"
+  }
+]

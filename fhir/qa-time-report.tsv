@@ -1,0 +1,24 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-fhir.PGHDProvIG.json	8936	-	0	0	0	0	0	0	12	4519	0	0	0	0	0	0	0	2	0	0	270	328	0	0	0	6	0	4
+fsh-generated/resources/Device-DeviceExample.json	494	27	0	0	1	0	0	0	0	879	0	0	0	0	0	0	0	0	0	0	48	73	0	0	0	0	0	0
+fsh-generated/resources/Encounter-EncounterExample.json	819	16	0	0	0	0	0	0	1	525	0	0	0	0	0	0	0	0	0	0	60	78	0	0	0	0	0	0
+fsh-generated/resources/Observation-HeartRateExample.json	1704	7	0	0	0	0	0	0	0	83	0	0	0	0	0	0	0	0	0	0	66	87	0	0	0	0	0	0
+fsh-generated/resources/Observation-StepsExample.json	1262	3	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	63	78	0	0	0	0	0	0
+fsh-generated/resources/Organization-OrganizationExample.json	331	12	0	0	3	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	44	81	0	0	0	0	0	0
+fsh-generated/resources/Patient-PatientExample.json	637	11	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	48	60	0	0	0	0	0	0
+fsh-generated/resources/Practitioner-PractitionerExample.json	576	7	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	51	61	0	0	0	0	0	0
+fsh-generated/resources/Provenance-ProvenanceExample.json	850	3	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	55	162	0	0	1	0	0	0
+fsh-generated/resources/StructureDefinition-observation-provenance.json	1504	10	0	27	0	0	1	0	4	61	0	0	3	0	0	0	0	1	0	0	168	853	0	1	0	3	0	0
+fsh-generated/resources/StructureDefinition-pghd-device.json	3081	11	0	155	0	0	0	0	0	64	0	0	0	0	0	0	0	2	0	0	977	2064	0	0	0	16	1	2
+fsh-generated/resources/StructureDefinition-pghd-encounter.json	5130	11	0	334	5	0	0	0	0	54	0	0	0	0	0	0	0	5	0	0	1039	1796	0	0	0	16	0	5
+fsh-generated/resources/StructureDefinition-pghd-location.json	1816	10	0	37	0	0	0	0	0	34	0	0	0	0	0	0	0	0	0	0	228	711	0	0	0	4	0	0
+fsh-generated/resources/StructureDefinition-pghd-observation.json	10364	8	0	226	1	0	0	0	0	97	0	0	1	0	0	0	0	3	0	0	1344	2401	0	0	0	25	0	3
+fsh-generated/resources/StructureDefinition-pghd-organization.json	2055	11	0	46	0	0	0	0	0	46	0	0	0	0	0	0	0	1	0	0	460	1058	0	0	0	8	0	1
+fsh-generated/resources/StructureDefinition-pghd-patient.json	4314	0	0	63	0	0	0	0	0	71	0	0	0	0	0	0	0	2	0	0	781	1531	0	0	0	15	0	0
+fsh-generated/resources/StructureDefinition-pghd-posture.json	1843	13	0	20	0	0	0	0	0	43	0	0	0	0	0	0	0	2	0	0	334	810	0	0	0	5	0	0
+fsh-generated/resources/StructureDefinition-pghd-practitioner.json	4057	6	0	36	0	0	0	0	0	51	0	0	0	0	0	0	0	1	0	0	811	1345	0	0	0	11	0	0
+fsh-generated/resources/StructureDefinition-pghd-provenance.json	4037	10	0	75	0	0	0	0	0	54	0	0	0	0	0	0	0	2	0	0	600	1149	0	0	0	8	0	0
+fsh-generated/resources/ValueSet-bodysite-valueset.json	1204	8	0	0	0	0	0	0	0	116	0	0	0	0	0	0	0	0	0	0	66	5618	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-encounter-class-valueset.json	664	9	0	0	0	0	0	0	1	42	0	0	0	0	0	0	0	0	0	0	66	203	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-location-valueset.json	600	1	0	0	0	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	57	200	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-posture-valueset.json	713	6	0	0	8	0	1	0	0	16	0	0	0	0	0	0	0	0	0	0	63	277	0	0	0	0	0	0

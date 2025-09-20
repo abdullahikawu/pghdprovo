@@ -1,0 +1,275 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "1938d30d-d8df-4dd6-b8d5-c86ee6a5e011",
+  "meta" : {
+    "lastUpdated" : "2025-04-30T16:44:46.560+01:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 8 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-5951000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/5951000\">5951000</a></td><td>http://snomed.info/sct</td><td>Left wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-9736006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/9736006\">9736006</a></td><td>http://snomed.info/sct</td><td>Right wrist</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368208006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368208006\">368208006</a></td><td>http://snomed.info/sct</td><td>Left upper arm structure</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-368209003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/368209003\">368209003</a></td><td>http://snomed.info/sct</td><td>Right upper arm</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-48979004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/48979004\">48979004</a></td><td>http://snomed.info/sct</td><td>Left lower leg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-32696007\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/32696007\">32696007</a></td><td>http://snomed.info/sct</td><td>Right lower leg</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-45048000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/45048000\">45048000</a></td><td>http://snomed.info/sct</td><td>Neck</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-276361009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/276361009\">276361009</a></td><td>http://snomed.info/sct</td><td>Waist circumference</td></tr></table></div>"
+      },
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset",
+      "version" : "0.1.0",
+      "name" : "BodySiteValueSet",
+      "title" : "PGHD Body Site",
+      "status" : "draft",
+      "date" : "2025-04-30T16:38:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:5db6572c-03ff-4d1e-aa6f-a513aa598562",
+        "timestamp" : "2025-04-30T16:45:38+01:00",
+        "total" : 8,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "5951000",
+          "display" : "Left wrist"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "9736006",
+          "display" : "Right wrist"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "368208006",
+          "display" : "Left upper arm structure"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "368209003",
+          "display" : "Right upper arm"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "48979004",
+          "display" : "Left lower leg"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "32696007",
+          "display" : "Right lower leg"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "45048000",
+          "display" : "Neck"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "276361009",
+          "display" : "Waist circumference"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html\">codesystem ActCode v9.0.0 (CodeSystem)</a></p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ActCode-AMB\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">AMB</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>Ambulatory</td><td><div><p>A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://terminology.hl7.org/CodeSystem/v3-ActCode-HH\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/6.2.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH\">HH</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>Home Health</td><td><div><p>Healthcare encounter that takes place in the residence of the patient or a designee</p>\n</div></td></tr></table></div>"
+      },
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset",
+      "version" : "0.1.0",
+      "name" : "EncounterClassValueSet",
+      "title" : "Encounter Class ValueSet",
+      "status" : "draft",
+      "date" : "2025-04-30T16:38:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:d8508891-c098-4d2b-acb0-fbd82a5595f8",
+        "timestamp" : "2025-04-30T16:45:39+01:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code" : "AMB",
+          "display" : "Ambulatory"
+        },
+        {
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code" : "HH",
+          "display" : "Home Health"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-264362003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/264362003\">264362003</a></td><td>http://snomed.info/sct</td><td>Dwelling</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-702703009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/702703009\">702703009</a></td><td>http://snomed.info/sct</td><td>Outdoor public site</td></tr></table></div>"
+      },
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset",
+      "version" : "0.1.0",
+      "name" : "LocationValueSet",
+      "title" : "PGHD Location Values",
+      "status" : "draft",
+      "date" : "2025-04-30T16:38:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:69938a8f-4f8d-4b42-97b9-8aaaa54bef45",
+        "timestamp" : "2025-04-30T16:45:39+01:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "264362003",
+          "display" : "Dwelling"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "702703009",
+          "display" : "Outdoor public site"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT International edition 01-Feb 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display (en-US)</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-33586001\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/33586001\">33586001</a></td><td>http://snomed.info/sct</td><td>Sitting position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-10904000\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/10904000\">10904000</a></td><td>http://snomed.info/sct</td><td>Orthostatic body position</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-102538003\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/102538003\">102538003</a></td><td>http://snomed.info/sct</td><td>Recumbent body position</td></tr></table></div>"
+      },
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset",
+      "version" : "0.1.0",
+      "name" : "PostureValueSet",
+      "title" : "PGHD Posture Values",
+      "status" : "draft",
+      "date" : "2025-04-30T16:38:09+01:00",
+      "expansion" : {
+        "identifier" : "urn:uuid:b1eb9200-7e6b-4c3b-b1c2-c63cdf3a76f6",
+        "timestamp" : "2025-04-30T16:45:40+01:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "displayLanguage",
+          "valueCode" : "en-US"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "33586001",
+          "display" : "Sitting position"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "10904000",
+          "display" : "Orthostatic body position"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "102538003",
+          "display" : "Recumbent body position"
+        }]
+      }
+    }
+  }]
+}
