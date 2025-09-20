@@ -1,5 +1,0 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset,0.1.0,draft,,BodySiteValueSet,PGHD Body Site,"A list of allowed body sites where the PGHD was collected from or device was placed.",,"SCT"
-https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset,0.1.0,draft,,EncounterClassValueSet,Encounter Class ValueSet,"A list of encounter classes including Ambulatory and Home Health.",,"THO (V3)"
-https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset,0.1.0,draft,,LocationValueSet,PGHD Location Values,"Common patient locations during PGHD collection.",,"SCT"
-https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset,0.1.0,draft,,PostureValueSet,PGHD Posture Values,"Common patient postures during PGHD collection.",,"SCT"
