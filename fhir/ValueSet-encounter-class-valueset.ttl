@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "EncounterClassValueSet"] ; # 
   fhir:title [ fhir:v "Encounter Class ValueSet"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-09-21T15:47:17+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-21T16:39:17+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Abdullahi Kawu"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Abdullahi Kawu" ] ;

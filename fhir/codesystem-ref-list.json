@@ -10,9 +10,9 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
+      "ValueSet-bodysite-valueset.html" : "PGHD Body Site",
       "ValueSet-posture-valueset.html" : "PGHD Posture Values",
-      "ValueSet-location-valueset.html" : "PGHD Location Values",
-      "ValueSet-bodysite-valueset.html" : "PGHD Body Site"
+      "ValueSet-location-valueset.html" : "PGHD Location Values"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
