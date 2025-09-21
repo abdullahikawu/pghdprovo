@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelatedPerson xmlns="http://hl7.org/fhir">
+  <id value="RelatedPersonCaregiverExample"/>
+  <meta>
+    <profile value="https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-relatedperson"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: RelatedPerson RelatedPersonCaregiverExample</b></p><a name="RelatedPersonCaregiverExample"> </a><a name="hcRelatedPersonCaregiverExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-pghd-relatedperson.html">PGHDRelatedPerson</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/123e4567-e89b-12d3-a456-426614174003</p><p><b>active</b>: true</p><p><b>patient</b>: <a href="Patient-PatientExample.html">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>relationship</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode CAREGIVER}">Caregiver</span></p><p><b>name</b>: Alex Smith (Official)</p><p><b>telecom</b>: ph: 555-111-2222</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1980-07-21</p></div>
+  </text>
+  <identifier>
+    <system value="urn:uuid"/>
+    <value value="123e4567-e89b-12d3-a456-426614174003"/>
+  </identifier>
+  <active value="true"/>
+  <patient>
+    <reference value="Patient/PatientExample"/>
+  </patient>
+  <relationship>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="CAREGIVER"/>
+      <display value="Caregiver"/>
+    </coding>
+  </relationship>
+  <name>
+    <use value="official"/>
+    <family value="Smith"/>
+    <given value="Alex"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="555-111-2222"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1980-07-21"/>
+</RelatedPerson>

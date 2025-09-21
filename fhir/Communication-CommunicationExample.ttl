@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://w3id.org/pghdprovo/fhir/Communication/CommunicationExample> a fhir:Communication ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CommunicationExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-communication"^^xsd:anyURI ;
+       fhir:link <https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-communication>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Communication CommunicationExample</b></p><a name=\"CommunicationExample\"> </a><a name=\"hcCommunicationExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pghd-communication.html\">PGHDCommunication</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/789e4567-e89b-12d3-a456-426614174910</p><p><b>status</b>: Completed</p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>sent</b>: 2025-09-10 09:15:00+0000</p><p><b>received</b>: 2025-09-10 09:16:30+0000</p><p><b>recipient</b>: <a href=\"Patient-PatientExample.html\">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>sender</b>: <a href=\"Practitioner-PractitionerExample.html\">Practitioner John Smith (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 248263006}\">Practitioner makes a request for patient's weekly data</span></p><h3>Payloads</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Content[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Observation-HeartRateExample.html\">Observation Heart rate</a></td></tr></table></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:uuid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "789e4567-e89b-12d3-a456-426614174910" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:subject [
+     fhir:link <https://w3id.org/pghdprovo/fhir/Patient/PatientExample> ;
+     fhir:reference [ fhir:v "Patient/PatientExample" ]
+  ] ; # 
+  fhir:sent [ fhir:v "2025-09-10T09:15:00Z"^^xsd:dateTime] ; # 
+  fhir:received [ fhir:v "2025-09-10T09:16:30Z"^^xsd:dateTime] ; # 
+  fhir:recipient ( [
+     fhir:link <https://w3id.org/pghdprovo/fhir/Patient/PatientExample> ;
+     fhir:reference [ fhir:v "Patient/PatientExample" ]
+  ] ) ; # 
+  fhir:sender [
+     fhir:link <https://w3id.org/pghdprovo/fhir/Practitioner/PractitionerExample> ;
+     fhir:reference [ fhir:v "Practitioner/PractitionerExample" ]
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       a sct:248263006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "248263006" ] ;
+       fhir:display [ fhir:v "Discussion about health data" ]
+     ] ) ;
+     fhir:text [ fhir:v "Practitioner makes a request for patient's weekly data" ]
+  ] ) ; # 
+  fhir:payload ( [
+     fhir:content [
+       a fhir:Reference ;
+       fhir:link <https://w3id.org/pghdprovo/fhir/Observation/HeartRateExample> ;
+       fhir:reference [ fhir:v "Observation/HeartRateExample" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

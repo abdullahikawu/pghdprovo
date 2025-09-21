@@ -1,0 +1,51 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://w3id.org/pghdprovo/fhir/RelatedPerson/RelatedPersonCaregiverExample> a fhir:RelatedPerson ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "RelatedPersonCaregiverExample"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-relatedperson"^^xsd:anyURI ;
+       fhir:link <https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-relatedperson>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson RelatedPersonCaregiverExample</b></p><a name=\"RelatedPersonCaregiverExample\"> </a><a name=\"hcRelatedPersonCaregiverExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pghd-relatedperson.html\">PGHDRelatedPerson</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/123e4567-e89b-12d3-a456-426614174003</p><p><b>active</b>: true</p><p><b>patient</b>: <a href=\"Patient-PatientExample.html\">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode CAREGIVER}\">Caregiver</span></p><p><b>name</b>: Alex Smith (Official)</p><p><b>telecom</b>: ph: 555-111-2222</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1980-07-21</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:uuid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "123e4567-e89b-12d3-a456-426614174003" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:patient [
+     fhir:link <https://w3id.org/pghdprovo/fhir/Patient/PatientExample> ;
+     fhir:reference [ fhir:v "Patient/PatientExample" ]
+  ] ; # 
+  fhir:relationship ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CAREGIVER" ] ;
+       fhir:display [ fhir:v "Caregiver" ]
+     ] )
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Smith" ] ;
+     fhir:given ( [ fhir:v "Alex" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "555-111-2222" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1980-07-21"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Device",
+  "id" : "DeviceExample",
+  "meta" : {
+    "profile" : ["https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-device"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device DeviceExample</b></p><a name=\"DeviceExample\"> </a><a name=\"hcDeviceExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pghd-device.html\">PGHDDevice</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/6ba7b810-9dad-11d1-80b4-00c04fd430c8</p><p><b>manufacturer</b>: Fitbit</p><p><b>modelNumber</b>: Versa</p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 49062001}\">Device</span></p></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:uuid",
+    "value" : "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+  }],
+  "manufacturer" : "Fitbit",
+  "modelNumber" : "Versa",
+  "type" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "49062001",
+      "display" : "Device"
+    }]
+  }
+}

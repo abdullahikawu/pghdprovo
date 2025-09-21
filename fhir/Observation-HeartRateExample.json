@@ -1,0 +1,68 @@
+{
+  "resourceType" : "Observation",
+  "id" : "HeartRateExample",
+  "meta" : {
+    "profile" : ["https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-observation"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation HeartRateExample</b></p><a name=\"HeartRateExample\"> </a><a name=\"hcHeartRateExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pghd-observation.html\">PGHDObservation</a></p></div><p><b>ObservationProvenance</b>: <a href=\"Provenance-ProvenanceExample.html\">Provenance for -&gt;Observation Heart rate </a></p><p><b>PGHDPosture</b>: <span title=\"Codes:{http://snomed.info/sct 30212006}\">Sitting</span></p><p><b>identifier</b>: <code>urn:uuid</code>/123e4567-e89b-12d3-a456-426614174000</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8867-4}\">Heart rate</span></p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>encounter</b>: <a href=\"Encounter-EncounterExample.html\">Encounter: identifier = urn:uuid#550e8400-e29b-41d4-a716-446655440000; status = finished; class = Ambulatory (ActCode#AMB)</a></p><p><b>effective</b>: 2025-04-03 10:05:00+0000</p><p><b>value</b>: 72 /min<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code/min = '/min')</span></p><p><b>bodySite</b>: <span title=\"Codes:{http://snomed.info/sct 368208006}\">Left upper arm</span></p><p><b>device</b>: <a href=\"Device-DeviceExample.html\">Device: identifier = urn:uuid#6ba7b810-9dad-11d1-80b4-00c04fd430c8; manufacturer = Fitbit; modelNumber = Versa; type = Device</a></p></div>"
+  },
+  "extension" : [{
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/observation-provenance",
+    "valueReference" : {
+      "reference" : "Provenance/ProvenanceExample"
+    }
+  },
+  {
+    "url" : "https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-posture",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "30212006",
+        "display" : "Sitting"
+      }]
+    }
+  }],
+  "identifier" : [{
+    "system" : "urn:uuid",
+    "value" : "123e4567-e89b-12d3-a456-426614174000"
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "8867-4",
+      "display" : "Heart rate"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/PatientExample"
+  },
+  "encounter" : {
+    "reference" : "Encounter/EncounterExample"
+  },
+  "effectiveDateTime" : "2025-04-03T10:05:00Z",
+  "valueQuantity" : {
+    "value" : 72,
+    "unit" : "/min",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "/min"
+  },
+  "bodySite" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "368208006",
+      "display" : "Left upper arm"
+    }]
+  },
+  "device" : {
+    "reference" : "Device/DeviceExample"
+  }
+}

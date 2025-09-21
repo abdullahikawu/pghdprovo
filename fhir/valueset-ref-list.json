@@ -1,0 +1,83 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-pghd-observation.html" : "PGHDObservation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "PatientRelationshipType",
+      "title" : "Patient relationship type",
+      "description" : "A set of codes that can be used to indicate the relationship between a Patient and a Related Person.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+        "http://terminology.hl7.org/CodeSystem/v2-0131"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.449"],
+      "sources" : ["2.16.840.1.113883.4.642.3.449"],
+      "uses" : {
+      },
+      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson"
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/bodysite-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "BodySiteValueSet",
+      "title" : "PGHD Body Site",
+      "description" : "A list of allowed body sites where the PGHD was collected from or device was placed.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-pghd-observation.html" : "PGHDObservation"
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/encounter-class-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EncounterClassValueSet",
+      "title" : "Encounter Class ValueSet",
+      "description" : "A list of encounter classes including Ambulatory and Home Health.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "uses" : {
+      },
+      "StructureDefinition-pghd-encounter.html" : "PGHDEncounter"
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/location-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "LocationValueSet",
+      "title" : "PGHD Location Values",
+      "description" : "Common patient locations during PGHD collection.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-pghd-location.html" : "PGHDLocation"
+    },
+    {
+      "url" : "https://w3id.org/pghdprovo/fhir/ValueSet/posture-valueset",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "PostureValueSet",
+      "title" : "PGHD Posture Values",
+      "description" : "Common patient postures during PGHD collection.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-pghd-posture.html" : "PGHDPosture"
+    }
+  ]
+}

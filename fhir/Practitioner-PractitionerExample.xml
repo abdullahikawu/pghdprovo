@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="PractitionerExample"/>
+  <meta>
+    <profile value="https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-practitioner"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Practitioner PractitionerExample</b></p><a name="PractitionerExample"> </a><a name="hcPractitionerExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-pghd-practitioner.html">PGHDPractitioner</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/9d121eab-f9a6-44f6-92af-4352c932d2da</p><p><b>active</b>: true</p><p><b>name</b>: John Smith (Official)</p><p><b>telecom</b>: ph: 555-123-4567</p><p><b>gender</b>: Male</p><p><b>birthDate</b>: 1980-01-01</p></div>
+  </text>
+  <identifier>
+    <system value="urn:uuid"/>
+    <value value="9d121eab-f9a6-44f6-92af-4352c932d2da"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <family value="Smith"/>
+    <given value="John"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="555-123-4567"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1980-01-01"/>
+</Practitioner>

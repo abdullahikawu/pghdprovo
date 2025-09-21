@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="StepsExample"/>
+  <meta>
+    <profile value="https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-observation"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation StepsExample</b></p><a name="StepsExample"> </a><a name="hcStepsExample"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-pghd-observation.html">PGHDObservation</a></p></div><p><b>ObservationProvenance</b>: <a href="Provenance-ProvenanceExample.html">Provenance for -&gt;Observation Heart rate </a></p><p><b>identifier</b>: <code>urn:uuid</code>/789e4567-e89b-12d3-a456-426614174999</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category activity}">Activity</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 41950-7}">Number of steps in 24 hour Measured</span></p><p><b>subject</b>: <a href="Patient-PatientExample.html">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>encounter</b>: <a href="Encounter-EncounterExample.html">Encounter: identifier = urn:uuid#550e8400-e29b-41d4-a716-446655440000; status = finished; class = Ambulatory (ActCode#AMB)</a></p><p><b>effective</b>: 2025-04-03 10:05:00+0000</p><p><b>performer</b>: <code>PGHDPatient/PatientExample</code></p><p><b>value</b>: 1570 {count}<span style="background: LightGoldenRodYellow"> (Details: UCUM  code{count} = '{count}')</span></p><p><b>device</b>: <a href="Device-DeviceExample.html">Device: identifier = urn:uuid#6ba7b810-9dad-11d1-80b4-00c04fd430c8; manufacturer = Fitbit; modelNumber = Versa; type = Device</a></p></div>
+  </text>
+  <extension url="https://w3id.org/pghdprovo/fhir/StructureDefinition/observation-provenance">
+    <valueReference>
+      <reference value="Provenance/ProvenanceExample"/>
+    </valueReference>
+  </extension>
+  <identifier>
+    <system value="urn:uuid"/>
+    <value value="789e4567-e89b-12d3-a456-426614174999"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="activity"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="41950-7"/>
+      <display value="Number of steps in 24 hour Measured"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/PatientExample"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/EncounterExample"/>
+  </encounter>
+  <effectiveDateTime value="2025-04-03T10:05:00Z"/>
+  <performer>
+    <reference value="PGHDPatient/PatientExample"/>
+  </performer>
+  <valueQuantity>
+    <value value="1570"/>
+    <unit value="{count}"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="{count}"/>
+  </valueQuantity>
+  <device>
+    <reference value="Device/DeviceExample"/>
+  </device>
+</Observation>

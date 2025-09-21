@@ -1,0 +1,40 @@
+{
+  "resourceType" : "Communication",
+  "id" : "CommunicationExample",
+  "meta" : {
+    "profile" : ["https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-communication"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Communication CommunicationExample</b></p><a name=\"CommunicationExample\"> </a><a name=\"hcCommunicationExample\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-pghd-communication.html\">PGHDCommunication</a></p></div><p><b>identifier</b>: <code>urn:uuid</code>/789e4567-e89b-12d3-a456-426614174910</p><p><b>status</b>: Completed</p><p><b>subject</b>: <a href=\"Patient-PatientExample.html\">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>sent</b>: 2025-09-10 09:15:00+0000</p><p><b>received</b>: 2025-09-10 09:16:30+0000</p><p><b>recipient</b>: <a href=\"Patient-PatientExample.html\">John Doe (official) Female, DoB: 1990-05-15 ( urn:uuid#123e4567-e89b-12d3-a456-426614174001)</a></p><p><b>sender</b>: <a href=\"Practitioner-PractitionerExample.html\">Practitioner John Smith (official)</a></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 248263006}\">Practitioner makes a request for patient's weekly data</span></p><h3>Payloads</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Content[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Observation-HeartRateExample.html\">Observation Heart rate</a></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:uuid",
+    "value" : "789e4567-e89b-12d3-a456-426614174910"
+  }],
+  "status" : "completed",
+  "subject" : {
+    "reference" : "Patient/PatientExample"
+  },
+  "sent" : "2025-09-10T09:15:00Z",
+  "received" : "2025-09-10T09:16:30Z",
+  "recipient" : [{
+    "reference" : "Patient/PatientExample"
+  }],
+  "sender" : {
+    "reference" : "Practitioner/PractitionerExample"
+  },
+  "reasonCode" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "248263006",
+      "display" : "Discussion about health data"
+    }],
+    "text" : "Practitioner makes a request for patient's weekly data"
+  }],
+  "payload" : [{
+    "contentReference" : {
+      "reference" : "Observation/HeartRateExample"
+    }
+  }]
+}

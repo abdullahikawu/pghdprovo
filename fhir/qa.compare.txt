@@ -1,0 +1,293 @@
+PGHDProvIG : Validation Results
+=========================================
+
+err = 4, warn = 24, info = 1
+$--
+Generated $--. FHIR version $-- for fhir.PGHDProvIG#$-- (canonical = https://w3id.org/pghdprovo/fhir)
+ Build Errors : 1 / 200 / 0
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Communication-CommunicationExample : 1 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Device-DeviceExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Encounter-EncounterExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ImplementationGuide-fhir.PGHDProvIG : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Observation-HeartRateExample : 1 / 2 / 2
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Observation-StepsExample : 1 / 2 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Organization-OrganizationExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Patient-PatientExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Person-PersonExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Practitioner-PractitionerExample : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Provenance-ProvenanceExample : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\RelatedPerson-RelatedPersonCaregiverExample : 1 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-observation-provenance : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-communication : 0 / 0 / 2
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-device : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-encounter : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-location : 0 / 2 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-observation : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-organization : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-patient : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-person : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-posture : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-practitioner : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-provenance : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\StructureDefinition-pghd-relatedperson : 0 / 0 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-bodysite-valueset : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-encounter-class-valueset : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-location-valueset : 0 / 1 / 1
+ C:\Users\Admin\PGHDProvIG\fsh-generated\resources\ValueSet-posture-valueset : 0 / 1 / 1
+</table>
+== n/a ==
+WARNING: Communication-CommunicationExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-CommunicationExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-CommunicationExample.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-CommunicationExample.ttl.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Communication-CommunicationExample.xml.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Device-DeviceExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Device-DeviceExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Device-DeviceExample.json.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Device-DeviceExample.ttl.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Device-DeviceExample.xml.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-EncounterExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-EncounterExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-EncounterExample.json.html#/html/body/div/div/div/p/a at Line 236, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-EncounterExample.ttl.html#/html/body/div/div/div/p/a at Line 241, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Encounter-EncounterExample.xml.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-HeartRateExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-HeartRateExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-HeartRateExample.json.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-HeartRateExample.ttl.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-HeartRateExample.xml.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-StepsExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-StepsExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-StepsExample.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-StepsExample.ttl.html#/html/body/div/div/div/p/a at Line 265, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Observation-StepsExample.xml.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-OrganizationExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-OrganizationExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-OrganizationExample.json.html#/html/body/div/div/div/p/a at Line 214, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-OrganizationExample.ttl.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Organization-OrganizationExample.xml.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 226, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Person-PersonExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Person-PersonExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Person-PersonExample.json.html#/html/body/div/div/div/p/a at Line 230, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Person-PersonExample.ttl.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Person-PersonExample.xml.html#/html/body/div/div/div/p/a at Line 221, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-PractitionerExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-PractitionerExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-PractitionerExample.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-PractitionerExample.ttl.html#/html/body/div/div/div/p/a at Line 234, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Practitioner-PractitionerExample.xml.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-ProvenanceExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-ProvenanceExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-ProvenanceExample.json.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-ProvenanceExample.ttl.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: Provenance-ProvenanceExample.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: RelatedPerson-RelatedPersonCaregiverExample.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: RelatedPerson-RelatedPersonCaregiverExample.html#/html/body/div/div/div/p/a at Line 195, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: RelatedPerson-RelatedPersonCaregiverExample.json.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: RelatedPerson-RelatedPersonCaregiverExample.ttl.html#/html/body/div/div/div/p/a at Line 243, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: RelatedPerson-RelatedPersonCaregiverExample.xml.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance-definitions.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance-mappings.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance.html#/html/body/div/div/div/p/a at Line 591, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance.profile.json.html#/html/body/div/div/div/p/a at Line 519, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance.profile.ttl.html#/html/body/div/div/div/p/a at Line 463, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-observation-provenance.profile.xml.html#/html/body/div/div/div/p/a at Line 479, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication-definitions.html#/html/body/div/div/div/p/a at Line 558, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication-mappings.html#/html/body/div/div/div/p/a at Line 560, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication.html#/html/body/div/div/div/p/a at Line 1669, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication.profile.json.html#/html/body/div/div/div/p/a at Line 2407, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication.profile.ttl.html#/html/body/div/div/div/p/a at Line 1863, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-communication.profile.xml.html#/html/body/div/div/div/p/a at Line 2213, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device-definitions.html#/html/body/div/div/div/p/a at Line 654, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device-mappings.html#/html/body/div/div/div/p/a at Line 822, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device.html#/html/body/div/div/div/p/a at Line 1904, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device.profile.json.html#/html/body/div/div/div/p/a at Line 3664, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device.profile.ttl.html#/html/body/div/div/div/p/a at Line 2743, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-device.profile.xml.html#/html/body/div/div/div/p/a at Line 3335, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter-definitions.html#/html/body/div/div/div/p/a at Line 754, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter-mappings.html#/html/body/div/div/div/p/a at Line 1090, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter.html#/html/body/div/div/div/p/a at Line 2224, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter.profile.json.html#/html/body/div/div/div/p/a at Line 4724, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter.profile.ttl.html#/html/body/div/div/div/p/a at Line 3505, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-encounter.profile.xml.html#/html/body/div/div/div/p/a at Line 4289, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location-mappings.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location.html#/html/body/div/div/div/p/a at Line 761, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location.profile.json.html#/html/body/div/div/div/p/a at Line 1054, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location.profile.ttl.html#/html/body/div/div/div/p/a at Line 836, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-location.profile.xml.html#/html/body/div/div/div/p/a at Line 967, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation-definitions.html#/html/body/div/div/div/p/a at Line 927, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation-examples.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation-mappings.html#/html/body/div/div/div/p/a at Line 1515, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation.html#/html/body/div/div/div/p/a at Line 2934, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation.profile.json.html#/html/body/div/div/div/p/a at Line 5417, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 3950, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-observation.profile.xml.html#/html/body/div/div/div/p/a at Line 5045, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization-definitions.html#/html/body/div/div/div/p/a at Line 478, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization-mappings.html#/html/body/div/div/div/p/a at Line 558, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization.html#/html/body/div/div/div/p/a at Line 1260, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization.profile.json.html#/html/body/div/div/div/p/a at Line 1949, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 1506, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-organization.profile.xml.html#/html/body/div/div/div/p/a at Line 1821, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient-definitions.html#/html/body/div/div/div/p/a at Line 693, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient-mappings.html#/html/body/div/div/div/p/a at Line 938, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient.html#/html/body/div/div/div/p/a at Line 1906, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient.profile.json.html#/html/body/div/div/div/p/a at Line 3341, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2495, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-patient.profile.xml.html#/html/body/div/div/div/p/a at Line 3112, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person-definitions.html#/html/body/div/div/div/p/a at Line 573, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person-mappings.html#/html/body/div/div/div/p/a at Line 539, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person.html#/html/body/div/div/div/p/a at Line 1549, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person.profile.json.html#/html/body/div/div/div/p/a at Line 2254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person.profile.ttl.html#/html/body/div/div/div/p/a at Line 1726, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-person.profile.xml.html#/html/body/div/div/div/p/a at Line 2103, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture-definitions.html#/html/body/div/div/div/p/a at Line 367, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture-mappings.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture-testing.html#/html/body/div/div/div/p/a at Line 240, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture.html#/html/body/div/div/div/p/a at Line 762, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture.profile.history.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture.profile.json.html#/html/body/div/div/div/p/a at Line 1054, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture.profile.ttl.html#/html/body/div/div/div/p/a at Line 836, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-posture.profile.xml.html#/html/body/div/div/div/p/a at Line 967, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner-definitions.html#/html/body/div/div/div/p/a at Line 565, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner-mappings.html#/html/body/div/div/div/p/a at Line 640, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner.html#/html/body/div/div/div/p/a at Line 1522, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 2375, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 1804, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 2212, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance-definitions.html#/html/body/div/div/div/p/a at Line 538, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance-mappings.html#/html/body/div/div/div/p/a at Line 727, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance.html#/html/body/div/div/div/p/a at Line 1528, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance.profile.json.html#/html/body/div/div/div/p/a at Line 2436, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1827, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-provenance.profile.xml.html#/html/body/div/div/div/p/a at Line 2254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson-definitions.html#/html/body/div/div/div/p/a at Line 568, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson-examples.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson-mappings.html#/html/body/div/div/div/p/a at Line 553, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson-testing.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson.html#/html/body/div/div/div/p/a at Line 1604, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson.profile.history.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson.profile.json.html#/html/body/div/div/div/p/a at Line 2350, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson.profile.ttl.html#/html/body/div/div/div/p/a at Line 1795, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: StructureDefinition-pghd-relatedperson.profile.xml.html#/html/body/div/div/div/p/a at Line 2196, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-bodysite-valueset-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-bodysite-valueset.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-bodysite-valueset.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-bodysite-valueset.json.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-bodysite-valueset.ttl.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-bodysite-valueset.xml.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-encounter-class-valueset-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-encounter-class-valueset.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-encounter-class-valueset.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-encounter-class-valueset.json.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-encounter-class-valueset.ttl.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-encounter-class-valueset.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-location-valueset-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-location-valueset.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-location-valueset.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-location-valueset.json.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-location-valueset.ttl.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-location-valueset.xml.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-posture-valueset-testing.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-posture-valueset.change.history.html#/html/body/div/div/div/p/a at Line 186, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-posture-valueset.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-posture-valueset.json.html#/html/body/div/div/div/p/a at Line 257, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-posture-valueset.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: ValueSet-posture-valueset.xml.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 446, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 182, column 5: The image source 'images/LGLogo.png' cannot be resolved
+WARNING: index.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Communication-CommunicationExample.json ==
+WARNING: Communication/CommunicationExample: Communication.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+ERROR: Communication/CommunicationExample: Communication.reasonCode[0].coding[0].display: Wrong Display Name 'Discussion about health data' for http://snomed.info/sct#248263006. Valid display is one of 2 choices: 'Duration of sleep' (en) or 'Duration of sleep (observable entity)' (en) (for the language(s) 'en-US')
+== fsh-generated\resources\Device-DeviceExample.json ==
+WARNING: Device/DeviceExample: Device.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+== fsh-generated\resources\Encounter-EncounterExample.json ==
+WARNING: Encounter/EncounterExample: Encounter.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+== fsh-generated\resources\ImplementationGuide-fhir.PGHDProvIG.json ==
+== fsh-generated\resources\Observation-HeartRateExample.json ==
+ERROR: Observation/HeartRateExample: Observation.extension[1].value.ofType(CodeableConcept).coding[0].display: Wrong Display Name 'Sitting' for http://snomed.info/sct#30212006. Valid display is one of 3 choices: 'Fowler's position' (en), 'Fowler's position (finding)' (en) or 'Fowler position' (en) (for the language(s) 'en-US')
+WARNING: Observation/HeartRateExample: Observation.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+WARNING: Observation/HeartRateExample: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated\resources\Observation-StepsExample.json ==
+WARNING: Observation/StepsExample: Observation.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+ERROR: Observation/StepsExample: Observation.performer[0]: Unable to resolve resource with reference 'PGHDPatient/PatientExample'
+WARNING: Observation/StepsExample: Observation.value.ofType(Quantity): UCUM Codes that contain human readable annotations like {count} can be misleading (e.g. they are ignored when comparing units). Best Practice is not to depend on annotations in the UCUM code, so this usage should be checked
+== fsh-generated\resources\Organization-OrganizationExample.json ==
+WARNING: Organization/OrganizationExample: Organization.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+== fsh-generated\resources\Patient-PatientExample.json ==
+WARNING: Patient/PatientExample: Patient.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+== fsh-generated\resources\Person-PersonExample.json ==
+WARNING: Person/PersonExample: Person.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+== fsh-generated\resources\Practitioner-PractitionerExample.json ==
+WARNING: Practitioner/PractitionerExample: Practitioner.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+== fsh-generated\resources\Provenance-ProvenanceExample.json ==
+== fsh-generated\resources\RelatedPerson-RelatedPersonCaregiverExample.json ==
+WARNING: RelatedPerson/RelatedPersonCaregiverExample: RelatedPerson.identifier[0].system: No definition could be found for URL value 'urn:uuid'
+ERROR: RelatedPerson/RelatedPersonCaregiverExample: RelatedPerson.relationship[0].coding[0].code: Unknown code 'CAREGIVER' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/v3-RoleCode' version '3.0.0'
+== fsh-generated\resources\StructureDefinition-observation-provenance.json ==
+WARNING: StructureDefinition/observation-provenance: StructureDefinition.context[0]: Review the extension type for observation-provenance: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-pghd-communication.json ==
+INFORMATION: StructureDefinition/pghd-communication: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated\resources\StructureDefinition-pghd-device.json ==
+== fsh-generated\resources\StructureDefinition-pghd-encounter.json ==
+== fsh-generated\resources\StructureDefinition-pghd-location.json ==
+WARNING: StructureDefinition/pghd-location: StructureDefinition.context[0]: Review the extension type for pghd-location: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://w3id.org/pghdprovo/fhir/StructureDefinition/pghd-location'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-pghd-observation.json ==
+== fsh-generated\resources\StructureDefinition-pghd-organization.json ==
+== fsh-generated\resources\StructureDefinition-pghd-patient.json ==
+== fsh-generated\resources\StructureDefinition-pghd-person.json ==
+== fsh-generated\resources\StructureDefinition-pghd-posture.json ==
+WARNING: StructureDefinition/pghd-posture: StructureDefinition.context[0]: Review the extension type for pghd-posture: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-pghd-practitioner.json ==
+== fsh-generated\resources\StructureDefinition-pghd-provenance.json ==
+== fsh-generated\resources\StructureDefinition-pghd-relatedperson.json ==
+== fsh-generated\resources\ValueSet-bodysite-valueset.json ==
+WARNING: ValueSet/bodysite-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated\resources\ValueSet-encounter-class-valueset.json ==
+WARNING: ValueSet/encounter-class-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated\resources\ValueSet-location-valueset.json ==
+WARNING: ValueSet/location-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated\resources\ValueSet-posture-valueset.json ==
+WARNING: ValueSet/posture-valueset: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
