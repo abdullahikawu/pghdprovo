@@ -195,7 +195,6 @@ Generic: line 0, col 0, Warning - The link 'https://w3id.org/pghdprovo/fhir' for
 Generic: line 0, col 0, Warning - The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
-Generic: line 0, col 0, Error - The image source 'images/LGLogo.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)

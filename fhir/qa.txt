@@ -3,8 +3,8 @@ PGHDProvIG : Validation Results
 
 err = 4, warn = 24, info = 1
 IG Publisher Version: 2.0.17
-Generated Sun Sep 21 10:48:04 WAT 2025. FHIR version 4.0.1 for fhir.PGHDProvIG#0.1.0 (canonical = https://w3id.org/pghdprovo/fhir)
- Build Errors : 1 / 200 / 0
+Generated Sun Sep 21 14:06:22 WAT 2025. FHIR version 4.0.1 for fhir.PGHDProvIG#0.1.0 (canonical = https://w3id.org/pghdprovo/fhir)
+ Build Errors : 0 / 200 / 0
  C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Communication-CommunicationExample : 1 / 1 / 1
  C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Device-DeviceExample : 0 / 1 / 1
  C:\Users\Admin\PGHDProvIG\fsh-generated\resources\Encounter-EncounterExample : 0 / 1 / 1
@@ -230,7 +230,6 @@ WARNING: ValueSet-posture-valueset.json.html#/html/body/div/div/div/p/a at Line 
 WARNING: ValueSet-posture-valueset.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
 WARNING: ValueSet-posture-valueset.xml.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
 WARNING: artifacts.html#/html/body/div/div/div/p/a at Line 446, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
-ERROR: index.html#/html/body/div/div/div/div/div/p/img at Line 182, column 5: The image source 'images/LGLogo.png' cannot be resolved
 WARNING: index.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
 WARNING: toc.html#/html/body/div/div/div/p/a at Line 142, column 28: The link 'https://w3id.org/pghdprovo/fhir' for "Abdullahi Kawu" is a canonical link and is therefore unsafe with regard to versions
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
