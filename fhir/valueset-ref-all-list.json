@@ -12,10 +12,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
+      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson",
       "StructureDefinition-pghd-patient.html" : "PGHDPatient",
       "StructureDefinition-pghd-practitioner.html" : "PGHDPractitioner",
-      "StructureDefinition-pghd-person.html" : "PGHDPerson",
-      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson"
+      "StructureDefinition-pghd-person.html" : "PGHDPerson"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
@@ -366,14 +366,14 @@
       "uses" : {
       },
       "StructureDefinition-pghd-encounter.html" : "PGHDEncounter",
-      "StructureDefinition-pghd-organization.html" : "PGHDOrganization",
-      "StructureDefinition-pghd-observation.html" : "PGHDObservation",
-      "StructureDefinition-pghd-communication.html" : "PGHDCommunication",
-      "StructureDefinition-pghd-device.html" : "PGHDDevice",
+      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson",
       "StructureDefinition-pghd-patient.html" : "PGHDPatient",
       "StructureDefinition-pghd-practitioner.html" : "PGHDPractitioner",
+      "StructureDefinition-pghd-device.html" : "PGHDDevice",
+      "StructureDefinition-pghd-organization.html" : "PGHDOrganization",
+      "StructureDefinition-pghd-observation.html" : "PGHDObservation",
       "StructureDefinition-pghd-person.html" : "PGHDPerson",
-      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson"
+      "StructureDefinition-pghd-communication.html" : "PGHDCommunication"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -388,14 +388,14 @@
       "uses" : {
       },
       "StructureDefinition-pghd-encounter.html" : "PGHDEncounter",
-      "StructureDefinition-pghd-organization.html" : "PGHDOrganization",
-      "StructureDefinition-pghd-observation.html" : "PGHDObservation",
-      "StructureDefinition-pghd-communication.html" : "PGHDCommunication",
-      "StructureDefinition-pghd-device.html" : "PGHDDevice",
+      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson",
       "StructureDefinition-pghd-patient.html" : "PGHDPatient",
       "StructureDefinition-pghd-practitioner.html" : "PGHDPractitioner",
+      "StructureDefinition-pghd-device.html" : "PGHDDevice",
+      "StructureDefinition-pghd-organization.html" : "PGHDOrganization",
+      "StructureDefinition-pghd-observation.html" : "PGHDObservation",
       "StructureDefinition-pghd-person.html" : "PGHDPerson",
-      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson"
+      "StructureDefinition-pghd-communication.html" : "PGHDCommunication"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identity-assuranceLevel",
@@ -424,15 +424,15 @@
       "uses" : {
       },
       "StructureDefinition-pghd-encounter.html" : "PGHDEncounter",
-      "StructureDefinition-pghd-organization.html" : "PGHDOrganization",
-      "StructureDefinition-pghd-observation.html" : "PGHDObservation",
-      "StructureDefinition-pghd-communication.html" : "PGHDCommunication",
-      "StructureDefinition-pghd-device.html" : "PGHDDevice",
+      "StructureDefinition-pghd-provenance.html" : "PGHDProvenance",
+      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson",
       "StructureDefinition-pghd-patient.html" : "PGHDPatient",
       "StructureDefinition-pghd-practitioner.html" : "PGHDPractitioner",
-      "StructureDefinition-pghd-provenance.html" : "PGHDProvenance",
+      "StructureDefinition-pghd-device.html" : "PGHDDevice",
+      "StructureDefinition-pghd-organization.html" : "PGHDOrganization",
+      "StructureDefinition-pghd-observation.html" : "PGHDObservation",
       "StructureDefinition-pghd-person.html" : "PGHDPerson",
-      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson"
+      "StructureDefinition-pghd-communication.html" : "PGHDCommunication"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -493,10 +493,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
+      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson",
       "StructureDefinition-pghd-patient.html" : "PGHDPatient",
       "StructureDefinition-pghd-practitioner.html" : "PGHDPractitioner",
-      "StructureDefinition-pghd-person.html" : "PGHDPerson",
-      "StructureDefinition-pghd-relatedperson.html" : "PGHDRelatedPerson"
+      "StructureDefinition-pghd-person.html" : "PGHDPerson"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
