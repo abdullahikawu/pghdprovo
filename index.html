@@ -17,7 +17,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/pghdprovo#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/pghdprovo#","name":"PGHDPROVO", "headline":"Document describing the ontology https://w3id.org/pghdprovo#", "dateReleased":"2021-05-24", "dateModified":"2025-11-24", "version":"1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Abdullahi Abubakar Kawu"}], "contributor":[{"@type":"Person","name":"Dympna OSullivan, Technological University Dublin"},{"@type":"Person","name":"Lucy Hederman, Trinity College Dublin"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://w3id.org/pghdprovo#","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/pghdprovo#","name":"PGHDPROVO", "headline":"Patient Generated Health Data (PGHD) refer to health data collected by patient or their relatives. This ontology seeks to capture information about the data, the provenance and data quality associated with PGHD shared with an EHR. The objective is to have an ontological formal representation of the provenance and contextual data related to PGHD shared with EHR, in order to offer clinicians a means to use PGHD data for decision making and treatment support.", "dateReleased":"2021-05-24", "dateModified":"2025-11-24", "version":"1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Abdullahi Abubakar Kawu"}], "contributor":[{"@type":"Person","name":"Dympna OSullivan, Technological University Dublin"},{"@type":"Person","name":"Lucy Hederman, Trinity College Dublin"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -102,14 +102,13 @@ $(function(){
 <span>http://purl.org/ontology/bibo/status/published</span>
 </div>
 </div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
-This is a placeholder text for the abstract. The abstract should contain a couple of sentences summarizing the ontology and its purpose.</span>
+Patient Generated Health Data (PGHD) refer to health data collected by patient or their relatives. This ontology seeks to capture information about the data, the provenance and data quality associated with PGHD shared with an EHR. The objective is to have an ontological formal representation of the provenance and contextual data related to PGHD shared with EHR, in order to offer clinicians a means to use PGHD data for decision making and treatment support.</span>
 </div>
 <div id="toc"></div> 
 
 <!--INTRODUCTION SECTION-->
     <div id="introduction"><h2 id="intro" class="list">Introduction <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a place holder text for the introduction. The introduction should briefly describe the ontology, its motivation, state of the art and goals.</span>
+<span class="markdown">Provenance refers to the details about the entities, activities, and individuals involved in the creation of a piece of data or an object, which can help assess its quality, reliability, or trustworthiness. This documentation describes an ontology that can be used to represent provenance and contextual information about Patient Generated Health Data (PGHD) shared with an Electronic Health Record (EHR). We created the ontology leveraging existing ontologies. Further, we chose and modeled important concepts based on literature that captures contextual information relevant to clinical decision making. We illustrated our ontology using a use case from literature, and evaluated the ontology using competence questions</span>
 <div id="namespacedeclarations">
 <h3 id="ns" class="list">Namespace declarations</h3>
 <div id="ns" align="center">
@@ -576,79 +575,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://www.w3.org/2002/07/owl#versionInfo" title="http://www.w3.org/2002/07/owl#versionInfo">
          <span>version Info</span>
-      </a>
-   </li>
-</ul><h4>Named Individuals</h4><ul xmlns:widoco="https://w3id.org/widoco/vocab#"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    class="hlist">
-   <li>
-      <a href="#application1" title="https://w3id.org/pghdprovo#application1">
-         <span>application1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#BPMonitor" title="https://w3id.org/pghdprovo#BPMonitor">
-         <span>B P Monitor</span>
-      </a>
-   </li>
-   <li>
-      <a href="#BloodPressure1" title="https://w3id.org/pghdprovo#BloodPressure1">
-         <span>Blood Pressure1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#ContextualDataInfo1" title="https://w3id.org/pghdprovo#ContextualDataInfo1">
-         <span>Contextual Data Info1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#Organisation1" title="https://w3id.org/pghdprovo#Organisation1">
-         <span>Organisation1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#PGHDRequest1" title="https://w3id.org/pghdprovo#PGHDRequest1">
-         <span>P G H D Request1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#PatientRelative1" title="https://w3id.org/pghdprovo#PatientRelative1">
-         <span>Patient Relative1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#Patient1" title="https://w3id.org/pghdprovo#Patient1">
-         <span>Patient1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#Practitioner1" title="https://w3id.org/pghdprovo#Practitioner1">
-         <span>Practitioner1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#Programme1" title="https://w3id.org/pghdprovo#Programme1">
-         <span>Programme1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#Protocol1" title="https://w3id.org/pghdprovo#Protocol1">
-         <span>Protocol1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#Rating1" title="https://w3id.org/pghdprovo#Rating1">
-         <span>Rating1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#State1" title="https://w3id.org/pghdprovo#State1">
-         <span>State1</span>
-      </a>
-   </li>
-   <li>
-      <a href="#State2" title="https://w3id.org/pghdprovo#State2">
-         <span>State2</span>
       </a>
    </li>
 </ul><iframe src="webvowl/index.html"></iframe> 
@@ -3900,391 +3826,12 @@ This section provides details for each class and property defined by Patient Gen
   <h3>version Info<sup class="type-ap" title="annotation property">ap</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#annotationproperties">Annotation Property ToC</a> </span></h3>
   <p><strong>IRI:</strong> http://www.w3.org/2002/07/owl#versionInfo</p>
  </div>
-</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="namedindividuals">
- <h3 id="namedindividuals" class="list">Named Individuals</h3>
- <ul class="hlist">
-  <li><a href="#application1" title="https://w3id.org/pghdprovo#application1"> <span>application1</span> </a></li>
-  <li><a href="#BPMonitor" title="https://w3id.org/pghdprovo#BPMonitor"> <span>B P Monitor</span> </a></li>
-  <li><a href="#BloodPressure1" title="https://w3id.org/pghdprovo#BloodPressure1"> <span>Blood Pressure1</span> </a></li>
-  <li><a href="#ContextualDataInfo1" title="https://w3id.org/pghdprovo#ContextualDataInfo1"> <span>Contextual Data Info1</span> </a></li>
-  <li><a href="#Organisation1" title="https://w3id.org/pghdprovo#Organisation1"> <span>Organisation1</span> </a></li>
-  <li><a href="#PGHDRequest1" title="https://w3id.org/pghdprovo#PGHDRequest1"> <span>P G H D Request1</span> </a></li>
-  <li><a href="#PatientRelative1" title="https://w3id.org/pghdprovo#PatientRelative1"> <span>Patient Relative1</span> </a></li>
-  <li><a href="#Patient1" title="https://w3id.org/pghdprovo#Patient1"> <span>Patient1</span> </a></li>
-  <li><a href="#Practitioner1" title="https://w3id.org/pghdprovo#Practitioner1"> <span>Practitioner1</span> </a></li>
-  <li><a href="#Programme1" title="https://w3id.org/pghdprovo#Programme1"> <span>Programme1</span> </a></li>
-  <li><a href="#Protocol1" title="https://w3id.org/pghdprovo#Protocol1"> <span>Protocol1</span> </a></li>
-  <li><a href="#Rating1" title="https://w3id.org/pghdprovo#Rating1"> <span>Rating1</span> </a></li>
-  <li><a href="#State1" title="https://w3id.org/pghdprovo#State1"> <span>State1</span> </a></li>
-  <li><a href="#State2" title="https://w3id.org/pghdprovo#State2"> <span>State2</span> </a></li>
- </ul>
- <div class="entity" id="application1">
-  <h3>application1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#application1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#Application" title="https://w3id.org/pghdprovo#Application">Application</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#wasAttributedTo" title="http://www.w3.org/ns/prov#wasAttributedTo">wasAttributedTo</a> <sup class="type-op" title="object property">op</sup> <a href="#Practitioner1" title="https://w3id.org/pghdprovo#Practitioner1">Practitioner1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#appName" title="https://w3id.org/pghdprovo#appName">app name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="BPMonitor">
-  <h3>B P Monitor<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#BPMonitor</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#https://saref.etsi.org/core/Device" title="https://saref.etsi.org/core/Device">Device</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#deviceModel" title="https://w3id.org/pghdprovo#deviceModel">device model</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#deviceName" title="https://w3id.org/pghdprovo#deviceName">device name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="BloodPressure1">
-  <h3>Blood Pressure1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#BloodPressure1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#PGHD" title="https://w3id.org/pghdprovo#PGHD">PGHD</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#wasAttributedTo" title="http://www.w3.org/ns/prov#wasAttributedTo">wasAttributedTo</a> <sup class="type-op" title="object property">op</sup> <a href="#Patient1" title="https://w3id.org/pghdprovo#Patient1">Patient1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">wasDerivedFrom</a> <sup class="type-op" title="object property">op</sup> <a href="#BPMonitor" title="https://w3id.org/pghdprovo#BPMonitor">B P Monitor</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#hasContextualInfo" title="https://w3id.org/pghdprovo#hasContextualInfo">Contain Contextual Info</a> <sup class="type-op" title="object property">op</sup> <a href="#Programme1" title="https://w3id.org/pghdprovo#Programme1">Programme1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#hasContextualInfo" title="https://w3id.org/pghdprovo#hasContextualInfo">Contain Contextual Info</a> <sup class="type-op" title="object property">op</sup> <a href="#Protocol1" title="https://w3id.org/pghdprovo#Protocol1">Protocol1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#hasContextualInfo" title="https://w3id.org/pghdprovo#hasContextualInfo">Contain Contextual Info</a> <sup class="type-op" title="object property">op</sup> <a href="#Rating1" title="https://w3id.org/pghdprovo#Rating1">Rating1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#hasContextualInfo" title="https://w3id.org/pghdprovo#hasContextualInfo">Contain Contextual Info</a> <sup class="type-op" title="object property">op</sup> <a href="#State1" title="https://w3id.org/pghdprovo#State1">State1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#wasCollectedBy" title="https://w3id.org/pghdprovo#wasCollectedBy">was collected by</a> <sup class="type-op" title="object property">op</sup> <a href="#Patient1" title="https://w3id.org/pghdprovo#Patient1">Patient1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""^^<a href="http://www.w3.org/2000/01/rdf-schema#Literal" target="_blank" title="http://www.w3.org/2000/01/rdf-schema#Literal">Literal</a> </span>
-   </dd>
-   <dd>
-    <a href="#dataSource" title="https://w3id.org/pghdprovo#dataSource">data source</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""^^<a href="http://www.w3.org/2000/01/rdf-schema#Literal" target="_blank" title="http://www.w3.org/2000/01/rdf-schema#Literal">Literal</a> </span>
-   </dd>
-   <dd>
-    <a href="#unit" title="https://w3id.org/pghdprovo#unit">unit</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""^^<a href="http://www.w3.org/2000/01/rdf-schema#Literal" target="_blank" title="http://www.w3.org/2000/01/rdf-schema#Literal">Literal</a> </span>
-   </dd>
-   <dd>
-    <a href="#value" title="https://w3id.org/pghdprovo#value">value</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""^^<a href="http://www.w3.org/2000/01/rdf-schema#Literal" target="_blank" title="http://www.w3.org/2000/01/rdf-schema#Literal">Literal</a> </span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="ContextualDataInfo1">
-  <h3>Contextual Data Info1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#ContextualDataInfo1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#ContextualInfo" title="https://w3id.org/pghdprovo#ContextualInfo">contextual information</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#locationOfPatient" title="https://w3id.org/pghdprovo#locationOfPatient">location of patient</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="Organisation1">
-  <h3>Organisation1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#Organisation1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#Organization" title="http://www.w3.org/ns/prov#Organization">Organization</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#orgAddress" title="https://w3id.org/pghdprovo#orgAddress">organization address</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#orgEmail" title="https://w3id.org/pghdprovo#orgEmail">organization email</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#orgId" title="https://w3id.org/pghdprovo#orgId">organization id</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#orgName" title="https://w3id.org/pghdprovo#orgName">organization name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="PGHDRequest1">
-  <h3>P G H D Request1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#PGHDRequest1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#PGHDRequest" title="https://w3id.org/pghdprovo#PGHDRequest">PGHD Request</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#used" title="http://www.w3.org/ns/prov#used">used</a> <sup class="type-op" title="object property">op</sup> <a href="#application1" title="https://w3id.org/pghdprovo#application1">application1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#PGHDRequestedBy" title="https://w3id.org/pghdprovo#PGHDRequestedBy">PGHD requested by</a> <sup class="type-op" title="object property">op</sup> <a href="#Practitioner1" title="https://w3id.org/pghdprovo#Practitioner1">Practitioner1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#wasAuthorizedBy" title="https://w3id.org/pghdprovo#wasAuthorizedBy">was authorized by</a> <sup class="type-op" title="object property">op</sup> <a href="#Patient1" title="https://w3id.org/pghdprovo#Patient1">Patient1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#endedAtTime" title="http://www.w3.org/ns/prov#endedAtTime">endedAtTime</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"1000-10-10T00:00:00"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime" target="_blank" title="http://www.w3.org/2001/XMLSchema#dateTime">date Time</a> </span>
-   </dd>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#startedAtTime" title="http://www.w3.org/ns/prov#startedAtTime">startedAtTime</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">"1000-10-10T00:00:00"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime" target="_blank" title="http://www.w3.org/2001/XMLSchema#dateTime">date Time</a> </span>
-   </dd>
-   <dd>
-    <a href="#description" title="https://w3id.org/pghdprovo#description">description</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#requestId" title="https://w3id.org/pghdprovo#requestId">activity id</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="PatientRelative1">
-  <h3>Patient Relative1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#PatientRelative1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#PatientRelative" title="https://w3id.org/pghdprovo#PatientRelative">Patient Relative</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://www.w3.org/ns/prov#actedOnBehalfOf" title="http://www.w3.org/ns/prov#actedOnBehalfOf">actedOnBehalfOf</a> <sup class="type-op" title="object property">op</sup> <a href="#Patient1" title="https://w3id.org/pghdprovo#Patient1">Patient1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#address" title="https://w3id.org/pghdprovo#address">address</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#id" title="https://w3id.org/pghdprovo#id">id</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#phoneNumber" title="https://w3id.org/pghdprovo#phoneNumber">phone number</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#relationship" title="https://w3id.org/pghdprovo#relationship">relationship</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="Patient1">
-  <h3>Patient1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#Patient1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#Patient" title="https://w3id.org/pghdprovo#Patient">Patient</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#address" title="https://w3id.org/pghdprovo#address">address</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#id" title="https://w3id.org/pghdprovo#id">id</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#phoneNumber" title="https://w3id.org/pghdprovo#phoneNumber">phone number</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="Practitioner1">
-  <h3>Practitioner1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#Practitioner1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#Practitioner" title="https://w3id.org/pghdprovo#Practitioner">Practitioner</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#isAStaffOf" title="https://w3id.org/pghdprovo#isAStaffOf">is a staff of</a> <sup class="type-op" title="object property">op</sup> <a href="#Organisation1" title="https://w3id.org/pghdprovo#Organisation1">Organisation1</a> <sup class="type-ni" title="named individual">ni</sup>
-   </dd>
-   <dd>
-    <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#address" title="https://w3id.org/pghdprovo#address">address</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#id" title="https://w3id.org/pghdprovo#id">id</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#phoneNumber" title="https://w3id.org/pghdprovo#phoneNumber">phone number</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#role" title="https://w3id.org/pghdprovo#role">role</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="Programme1">
-  <h3>Programme1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#Programme1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#Programme" title="https://w3id.org/pghdprovo#Programme">programme</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#programmeName" title="https://w3id.org/pghdprovo#programmeName">programme name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="Protocol1">
-  <h3>Protocol1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#Protocol1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#Protocol" title="https://w3id.org/pghdprovo#Protocol">protocol</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#bodySite" title="https://w3id.org/pghdprovo#bodySite">Body Site</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="Rating1">
-  <h3>Rating1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#Rating1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#Rating" title="https://w3id.org/pghdprovo#Rating">rating</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#ratingOrgName" title="https://w3id.org/pghdprovo#ratingOrgName">rating organization name</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#ratingScore" title="https://w3id.org/pghdprovo#ratingScore">rating score</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="State1">
-  <h3>State1<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#State1</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#State" title="https://w3id.org/pghdprovo#State">state</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#exerciseState" title="https://w3id.org/pghdprovo#exerciseState">exercise state</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-   <dd>
-    <a href="#posture" title="https://w3id.org/pghdprovo#posture">posture</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
- <div class="entity" id="State2">
-  <h3>State2<sup class="type-ni" title="named individual">ni</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a> </span></h3>
-  <p><strong>IRI:</strong> https://w3id.org/pghdprovo#State2</p>
-  <dl class="description">
-   <dt>
-    belongs to
-   </dt>
-   <dd>
-    <a href="#State" title="https://w3id.org/pghdprovo#State">state</a> <sup class="type-c" title="class">c</sup>
-   </dd>
-   <dt>
-    has facts
-   </dt>
-   <dd>
-    <a href="#posture" title="https://w3id.org/pghdprovo#posture">posture</a> <sup class="type-dp" title="data property">dp</sup> <span class="literal">""</span>
-   </dd>
-  </dl>
- </div>
 </div><div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <div   class="entity">
 <sup class="type-c" title="Classes">c</sup>: Classes <br/>
 <sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
 <sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
-<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals <br/>
 </div>
 </div>
 </div>
@@ -4300,7 +3847,10 @@ Add your references here. It is recommended to have them as a list.</span>
    
 
 <!--CHANGELOG SECTION-->
-   <div id="changelog">null</div>
+   <div id="changelog"><div id="changelog">
+<h2 id="changes" class="list">Changes from last version</h2>
+</div>
+</div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <p>

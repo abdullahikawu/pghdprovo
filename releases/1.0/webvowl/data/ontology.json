@@ -1517,10 +1517,10 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "104",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "105",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "106",
     "type" : "owl:disjointWith"
@@ -1529,28 +1529,28 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "108",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "109",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "110",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "112",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "113",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "114",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "115",
     "type" : "owl:allValuesFrom"
   }, {
-    "id" : "116",
+    "id" : "115",
     "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "116",
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "117",
     "type" : "owl:someValuesFrom"
@@ -1863,12 +1863,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#End",
+        "value" : "http://www.w3.org/ns/prov#atTime",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#atTime",
+        "value" : "http://www.w3.org/ns/prov#End",
         "type" : "iri"
       } ]
     },
@@ -1944,12 +1944,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Generation",
+        "value" : "http://www.w3.org/ns/prov#atTime",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#atTime",
+        "value" : "http://www.w3.org/ns/prov#Generation",
         "type" : "iri"
       } ]
     },
@@ -1980,7 +1980,7 @@
   }, {
     "range" : "35",
     "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "33"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/name",
@@ -2166,12 +2166,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "value" : "http://www.w3.org/ns/prov#Derivation",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
         "type" : "iri"
       } ]
     },
@@ -2368,12 +2368,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "value" : "http://www.w3.org/ns/prov#Attribution",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Attribution",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
         "type" : "iri"
       } ]
     },
@@ -2492,17 +2492,17 @@
   }, {
     "range" : "94",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
     "range" : "66",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "95"
   }, {
     "range" : "94",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "96"
   }, {
     "iri" : "https://w3id.org/pghdprovo#code",
@@ -2551,12 +2551,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Delegation",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDelegation",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedDelegation",
+        "value" : "http://www.w3.org/ns/prov#Delegation",
         "type" : "iri"
       } ]
     },
@@ -2627,7 +2627,7 @@
   }, {
     "range" : "10",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
     "iri" : "https://w3id.org/pghdprovo#isSourceOf",
@@ -2646,185 +2646,13 @@
   }, {
     "range" : "66",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "102"
   }, {
     "range" : "53",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "103"
-  }, {
-    "iri" : "http://www.w3.org/ns/prov#used",
-    "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "68",
-    "annotations" : {
-      "inverse" : [ {
-        "identifier" : "inverse",
-        "language" : "undefined",
-        "value" : "wasUsedBy",
-        "type" : "label"
-      } ],
-      "component" : [ {
-        "identifier" : "component",
-        "language" : "undefined",
-        "value" : "entities-activities",
-        "type" : "label"
-      } ],
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov-o#",
-        "type" : "iri"
-      } ],
-      "category" : [ {
-        "identifier" : "category",
-        "language" : "undefined",
-        "value" : "starting-point",
-        "type" : "label"
-      } ],
-      "qualifiedForm" : [ {
-        "identifier" : "qualifiedForm",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Usage",
-        "type" : "iri"
-      }, {
-        "identifier" : "qualifiedForm",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedUsage",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "used",
-      "undefined" : "used"
-    },
-    "superproperty" : [ "57" ],
-    "domain" : "4",
-    "comment" : {
-      "en" : "A prov:Entity that was used by this prov:Activity. For example, :baking prov:used :spoon, :egg, :oven ."
-    },
-    "attributes" : [ "someValues", "object", "external" ],
-    "id" : "104"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#wasAuthorizedBy",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "18",
-    "label" : {
-      "IRI-based" : "wasAuthorizedBy",
-      "undefined" : "was authorized by"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "A person who grant access to data requested."
-    },
-    "attributes" : [ "allValues", "object" ],
-    "id" : "105"
-  }, {
-    "range" : "10",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "106"
-  }, {
-    "range" : "67",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "107"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#PGHDRequestedBy",
-    "inverse" : "64",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "10",
-    "label" : {
-      "IRI-based" : "PGHDRequestedBy",
-      "undefined" : "PGHD requested by"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "A object property that declares the prov:agent responsible for the initializing a request for acquiring of patient Health data."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "108"
-  }, {
-    "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
-    "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "4",
-    "annotations" : {
-      "inverse" : [ {
-        "identifier" : "inverse",
-        "language" : "undefined",
-        "value" : "generated",
-        "type" : "label"
-      } ],
-      "component" : [ {
-        "identifier" : "component",
-        "language" : "undefined",
-        "value" : "entities-activities",
-        "type" : "label"
-      } ],
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov-o#",
-        "type" : "iri"
-      } ],
-      "category" : [ {
-        "identifier" : "category",
-        "language" : "undefined",
-        "value" : "starting-point",
-        "type" : "label"
-      } ],
-      "qualifiedForm" : [ {
-        "identifier" : "qualifiedForm",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedGeneration",
-        "type" : "iri"
-      }, {
-        "identifier" : "qualifiedForm",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Generation",
-        "type" : "iri"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "wasGeneratedBy",
-      "undefined" : "wasGeneratedBy"
-    },
-    "superproperty" : [ "57" ],
-    "domain" : "1",
-    "comment" : {
-      "en" : "Indicates that an entity was generated by an activity."
-    },
-    "attributes" : [ "allValues", "object", "external" ],
-    "id" : "109"
-  }, {
-    "iri" : "http://xmlns.com/foaf/0.1/gender",
-    "baseIri" : "http://xmlns.com/foaf/0.1",
-    "range" : "111",
-    "annotations" : {
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://xmlns.com/foaf/0.1/",
-        "type" : "iri"
-      } ],
-      "term_status" : [ {
-        "identifier" : "term_status",
-        "language" : "undefined",
-        "value" : "testing",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "IRI-based" : "gender",
-      "undefined" : "gender"
-    },
-    "cardinality" : "1",
-    "domain" : "14",
-    "comment" : {
-      "undefined" : "The gender of this Agent (typically but not necessarily 'male' or 'female')."
-    },
-    "attributes" : [ "datatype", "external", "functional" ],
-    "id" : "110"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
     "inverse" : "100",
@@ -2876,24 +2704,106 @@
     "comment" : {
       "en" : "An prov:Agent that had some (unspecified) responsibility for the occurrence of this prov:Activity."
     },
-    "attributes" : [ "allValues", "object", "external" ],
-    "id" : "112"
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "104"
   }, {
-    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
-    "inverse" : "56",
+    "iri" : "https://w3id.org/pghdprovo#PGHDRequestedBy",
+    "inverse" : "64",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "PGHDRequestedBy",
+      "undefined" : "PGHD requested by"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A object property that declares the prov:agent responsible for the initializing a request for acquiring of patient Health data."
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "67",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#wasAuthorizedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "wasAuthorizedBy",
+      "undefined" : "was authorized by"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A person who grant access to data requested."
+    },
+    "attributes" : [ "object", "allValues" ],
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#hasContextualInfo",
+    "inverse" : "63",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "hasContextualInfo",
+      "undefined" : "Contain Contextual Info"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Has some contextual information associated to the PGHD"
+    },
+    "attributes" : [ "someValues", "object" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/gender",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "111",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "gender",
+      "undefined" : "gender"
+    },
+    "cardinality" : "1",
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "The gender of this Agent (typically but not necessarily 'male' or 'female')."
+    },
+    "attributes" : [ "functional", "datatype", "external" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#used",
     "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "34",
+    "range" : "68",
     "annotations" : {
       "inverse" : [ {
         "identifier" : "inverse",
         "language" : "undefined",
-        "value" : "hadDerivation",
+        "value" : "wasUsedBy",
         "type" : "label"
       } ],
       "component" : [ {
         "identifier" : "component",
         "language" : "undefined",
-        "value" : "derivations",
+        "value" : "entities-activities",
         "type" : "label"
       } ],
       "isDefinedBy" : [ {
@@ -2901,12 +2811,6 @@
         "language" : "undefined",
         "value" : "http://www.w3.org/ns/prov-o#",
         "type" : "iri"
-      } ],
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
-        "type" : "label"
       } ],
       "category" : [ {
         "identifier" : "category",
@@ -2917,26 +2821,26 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "value" : "http://www.w3.org/ns/prov#qualifiedUsage",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "value" : "http://www.w3.org/ns/prov#Usage",
         "type" : "iri"
       } ]
     },
     "label" : {
-      "IRI-based" : "wasDerivedFrom",
-      "undefined" : "wasDerivedFrom"
+      "IRI-based" : "used",
+      "undefined" : "used"
     },
     "superproperty" : [ "57" ],
-    "domain" : "1",
+    "domain" : "4",
     "comment" : {
-      "en" : "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
+      "en" : "A prov:Entity that was used by this prov:Activity. For example, :baking prov:used :spoon, :egg, :oven ."
     },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "113"
+    "id" : "112"
   }, {
     "iri" : "https://w3id.org/pghdprovo#wasCollectedBy",
     "baseIri" : "https://w3id.org/pghdprovo",
@@ -2950,7 +2854,7 @@
       "undefined" : "Ascribing a person engaged in the retrieval of health data. This could be the patient themself, a caregiver, a relative, or a friend."
     },
     "attributes" : [ "someValues", "object" ],
-    "id" : "114"
+    "id" : "113"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
     "inverse" : "41",
@@ -2990,12 +2894,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "value" : "http://www.w3.org/ns/prov#Attribution",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Attribution",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
         "type" : "iri"
       } ]
     },
@@ -3008,23 +2912,133 @@
     "comment" : {
       "en" : "Attribution is the ascribing of an entity to an agent."
     },
-    "attributes" : [ "allValues", "object", "external" ],
-    "id" : "115"
+    "attributes" : [ "object", "allValues", "external" ],
+    "id" : "114"
   }, {
-    "iri" : "https://w3id.org/pghdprovo#hasContextualInfo",
-    "inverse" : "63",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "59",
-    "label" : {
-      "IRI-based" : "hasContextualInfo",
-      "undefined" : "Contain Contextual Info"
+    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+    "inverse" : "56",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "34",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "hadDerivation",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "derivations",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "type" : "iri"
+      } ]
     },
+    "label" : {
+      "IRI-based" : "wasDerivedFrom",
+      "undefined" : "wasDerivedFrom"
+    },
+    "superproperty" : [ "57" ],
     "domain" : "1",
     "comment" : {
-      "undefined" : "Has some contextual information associated to the PGHD"
+      "en" : "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
     },
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "someValues", "object", "external" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "4",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "generated",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "entities-activities",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Generation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedGeneration",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "wasGeneratedBy",
+      "undefined" : "wasGeneratedBy"
+    },
+    "superproperty" : [ "57" ],
+    "domain" : "1",
+    "comment" : {
+      "en" : "Indicates that an entity was generated by an activity."
+    },
+    "attributes" : [ "object", "allValues", "external" ],
     "id" : "116"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#appName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "appName",
+      "undefined" : "app name"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The name of the software application utilised by a patient and practitioner."
+    },
+    "attributes" : [ "someValues", "datatype" ],
+    "id" : "117"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
     "inverse" : "41",
@@ -3064,12 +3078,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
+        "value" : "http://www.w3.org/ns/prov#Attribution",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Attribution",
+        "value" : "http://www.w3.org/ns/prov#qualifiedAttribution",
         "type" : "iri"
       } ]
     },
@@ -3083,20 +3097,6 @@
       "en" : "Attribution is the ascribing of an entity to an agent."
     },
     "attributes" : [ "someValues", "object", "external" ],
-    "id" : "117"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#appName",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "118",
-    "label" : {
-      "IRI-based" : "appName",
-      "undefined" : "app name"
-    },
-    "domain" : "68",
-    "comment" : {
-      "undefined" : "The name of the software application utilised by a patient and practitioner."
-    },
-    "attributes" : [ "someValues", "datatype" ],
     "id" : "119"
   }, {
     "iri" : "https://w3id.org/pghdprovo#deviceName",
@@ -3257,7 +3257,7 @@
   }, {
     "range" : "94",
     "domain" : "66",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "144"
   }, {
     "iri" : "http://www.w3.org/ns/prov#startedAtTime",
@@ -3291,12 +3291,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#atTime",
+        "value" : "http://www.w3.org/ns/prov#Start",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Start",
+        "value" : "http://www.w3.org/ns/prov#atTime",
         "type" : "iri"
       } ]
     },
@@ -3356,12 +3356,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Usage",
+        "value" : "http://www.w3.org/ns/prov#qualifiedUsage",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedUsage",
+        "value" : "http://www.w3.org/ns/prov#Usage",
         "type" : "iri"
       } ]
     },
@@ -3516,7 +3516,7 @@
     "comment" : {
       "undefined" : "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
     },
-    "attributes" : [ "datatype", "external", "functional" ],
+    "attributes" : [ "functional", "datatype", "external" ],
     "id" : "161"
   }, {
     "iri" : "http://www.w3.org/ns/prov#actedOnBehalfOf",
@@ -3551,12 +3551,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Delegation",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDelegation",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedDelegation",
+        "value" : "http://www.w3.org/ns/prov#Delegation",
         "type" : "iri"
       } ]
     },
@@ -3574,7 +3574,7 @@
   }, {
     "range" : "59",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "162"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
@@ -3608,12 +3608,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedGeneration",
+        "value" : "http://www.w3.org/ns/prov#Generation",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Generation",
+        "value" : "http://www.w3.org/ns/prov#qualifiedGeneration",
         "type" : "iri"
       } ]
     },
@@ -3631,7 +3631,7 @@
   }, {
     "range" : "59",
     "domain" : "66",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "163"
   }, {
     "iri" : "https://w3id.org/pghdprovo#calibrationStatus",
@@ -3650,72 +3650,72 @@
   }, {
     "range" : "59",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "165"
   }, {
     "range" : "59",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "166"
   }, {
     "range" : "15",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "167"
   }, {
     "range" : "15",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "168"
   }, {
     "range" : "15",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "169"
   }, {
     "range" : "29",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "170"
   }, {
     "range" : "29",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "171"
   }, {
     "range" : "68",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "172"
   }, {
     "range" : "59",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "173"
   }, {
     "range" : "1",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "174"
   }, {
     "range" : "59",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "175"
   }, {
     "range" : "1",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "176"
   }, {
     "range" : "1",
     "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "177"
   }, {
     "range" : "27",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "178"
   }, {
     "iri" : "http://purl.org/dc/elements/1.1/identifier",
@@ -3742,7 +3742,7 @@
   }, {
     "range" : "14",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "180"
   }, {
     "iri" : "https://w3id.org/pghdprovo#authorized",
@@ -3776,52 +3776,52 @@
   }, {
     "range" : "14",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "182"
   }, {
     "range" : "14",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "183"
   }, {
     "range" : "17",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "184"
   }, {
     "range" : "14",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "185"
   }, {
     "range" : "27",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "186"
   }, {
     "range" : "27",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "187"
   }, {
     "range" : "14",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "188"
   }, {
     "range" : "27",
     "domain" : "40",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "189"
   }, {
     "range" : "27",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "190"
   }, {
     "range" : "27",
     "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "191"
   }, {
     "iri" : "https://w3id.org/pghdprovo#consentOrganisation",
@@ -3868,7 +3868,7 @@
   }, {
     "range" : "22",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "194"
   }, {
     "iri" : "https://w3id.org/pghdprovo#consentRegulatory",
