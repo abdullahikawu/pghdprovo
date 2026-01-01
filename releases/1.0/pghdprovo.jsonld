@@ -319,7 +319,13 @@
   "@id" : "http://purl.org/dc/terms/publisher",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/ontology/bibo/status",
@@ -1094,7 +1100,7 @@
     "@id" : "http://xmlns.com/foaf/0.1/"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Given name"
+    "@value" : "given name"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1102,6 +1108,9 @@
   "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
     "@value" : "testing"
   } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/logo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/name",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
@@ -1166,6 +1175,9 @@
     "@id" : "https://saref.etsi.org/core/Device"
   } ]
 }, {
+  "@id" : "https://schema.org/includedInDataCatalog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "https://w3id.org/mod#createdWith",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1204,8 +1216,17 @@
   "http://purl.org/dc/terms/publisher" : [ {
     "@value" : "Technological University Dublin"
   } ],
+  "http://purl.org/dc/terms/source" : [ {
+    "@value" : "https://doi.org/10.1016/j.ijmedinf.2018.10.006"
+  }, {
+    "@value" : "https://www.w3.org/TR/prov-o/"
+  } ],
   "http://purl.org/dc/terms/title" : [ {
     "@value" : "PGHDPROVO"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@language" : "en",
+    "@value" : "10.1007/978-3-031-95841-0_37"
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@value" : "http://purl.org/ontology/bibo/status/published"
@@ -1228,6 +1249,12 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "1.0"
+  } ],
+  "http://xmlns.com/foaf/0.1/logo" : [ {
+    "@id" : "https://github.com/abdullahikawu/pghdprovo/blob/main/pghdprovo-logo.png?raw=true"
+  } ],
+  "https://schema.org/includedInDataCatalog" : [ {
+    "@value" : "http://bioportal.biootology.org/"
   } ],
   "https://w3id.org/mod#createdWith" : [ {
     "@id" : "https://chowlk.linkeddata.es/"
@@ -1770,7 +1797,7 @@
     "@id" : "https://w3id.org/pghdprovo#Protocol"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Body Site"
+    "@value" : "body site"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1835,7 +1862,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Date"
+    "@value" : "consent date"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
@@ -1850,7 +1877,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Organization"
+    "@value" : "consent organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/ns/prov#Organization"
@@ -1865,7 +1892,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Patient"
+    "@value" : "consent patient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#Patient"
@@ -1880,7 +1907,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Policy URI"
+    "@value" : "consent policy"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1895,7 +1922,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Provision Data"
+    "@value" : "consent provision data"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#PGHD"
@@ -1910,7 +1937,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Regulatory Rule URI"
+    "@value" : "consent regulatory"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1925,7 +1952,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Service Provider"
+    "@value" : "consent service provider"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#Practitioner"
@@ -1940,7 +1967,7 @@
     "@id" : "https://w3id.org/pghdprovo#Consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Consent Source Reference"
+    "@value" : "consent source reference"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
@@ -1972,7 +1999,7 @@
     "@id" : "https://w3id.org/pghdprovo#PGHD"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Data Covered By Consent"
+    "@value" : "data covered by consent"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#Consent"
@@ -2118,7 +2145,7 @@
     "@id" : "https://w3id.org/pghdprovo#PGHD"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Contain Contextual Info"
+    "@value" : "contain contextual info"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#ContextualInfo"
@@ -2310,7 +2337,7 @@
     "@id" : "http://www.w3.org/ns/prov#Organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Organisation Consented"
+    "@value" : "organisation consented"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#Consent"
@@ -2328,7 +2355,7 @@
     "@id" : "https://w3id.org/pghdprovo#Patient"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Patient Consented"
+    "@value" : "patient consented"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#Consent"
@@ -2495,7 +2522,7 @@
     "@id" : "https://w3id.org/pghdprovo#Practitioner"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Service Provider Consented"
+    "@value" : "service provider consented"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/pghdprovo#Consent"

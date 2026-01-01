@@ -14,6 +14,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/"
      xmlns:pghdprovo="https://w3id.org/pghdprovo#">
     <owl:Ontology rdf:about="https://w3id.org/pghdprovo">
         <owl:versionIRI rdf:resource="https://w3id.org/pghdprovo/1.0"/>
@@ -27,13 +28,18 @@
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-11-24</terms:modified>
         <terms:publisher>Technological University Dublin</terms:publisher>
+        <terms:source>https://doi.org/10.1016/j.ijmedinf.2018.10.006</terms:source>
+        <terms:source>https://www.w3.org/TR/prov-o/</terms:source>
         <terms:title>PGHDPROVO</terms:title>
+        <bibo:doi xml:lang="en">10.1007/978-3-031-95841-0_37</bibo:doi>
         <bibo:status>http://purl.org/ontology/bibo/status/published</bibo:status>
         <vann:preferredNamespacePrefix>pghdprovo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://w3id.org/pghdprovo#</vann:preferredNamespaceUri>
         <rdfs:label xml:lang="en">Patient Generated Health Data Provenance Ontology</rdfs:label>
         <owl:priorVersion rdf:resource="https://w3id.org/pghdprovo/1.0"/>
         <owl:versionInfo>1.0</owl:versionInfo>
+        <foaf:logo rdf:resource="https://github.com/abdullahikawu/pghdprovo/blob/main/pghdprovo-logo.png?raw=true"/>
+        <schema:includedInDataCatalog>http://bioportal.biootology.org/</schema:includedInDataCatalog>
         <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
     </owl:Ontology>
     
@@ -114,10 +120,24 @@
     
 
 
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
     <!-- http://purl.org/dc/terms/title -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
     
 
 
@@ -216,6 +236,20 @@
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#qualifiedForm"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
+    
+
+
+    <!-- https://schema.org/includedInDataCatalog -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/includedInDataCatalog"/>
     
 
 
@@ -472,7 +506,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Organization"/>
         <rdfs:comment>The organization managing or enforcing this consent.</rdfs:comment>
-        <rdfs:label>Consent Organization</rdfs:label>
+        <rdfs:label>consent organization</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -484,7 +518,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#Patient"/>
         <rdfs:comment>The patient to whom this consent applies.</rdfs:comment>
-        <rdfs:label>Consent Patient</rdfs:label>
+        <rdfs:label>consent patient</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -496,7 +530,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#PGHD"/>
         <rdfs:comment>The specific observations (data) covered by this consent rule.</rdfs:comment>
-        <rdfs:label>Consent Provision Data</rdfs:label>
+        <rdfs:label>consent provision data</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -508,7 +542,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#Practitioner"/>
         <rdfs:comment>The practitioner or provider associated with the consent agreement.</rdfs:comment>
-        <rdfs:label>Consent Service Provider</rdfs:label>
+        <rdfs:label>consent service provider</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -533,7 +567,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#PGHD"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:comment>Indicates consents that cover this specific PGHD data.</rdfs:comment>
-        <rdfs:label>Data Covered By Consent</rdfs:label>
+        <rdfs:label>data covered by consent</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -558,7 +592,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#PGHD"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#ContextualInfo"/>
         <rdfs:comment>Has some contextual information associated to the PGHD</rdfs:comment>
-        <rdfs:label>Contain Contextual Info</rdfs:label>
+        <rdfs:label>contain contextual info</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -620,7 +654,7 @@
         <rdfs:domain rdf:resource="http://www.w3.org/ns/prov#Organization"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:comment>Indicates consents managed or enforced by the organization.</rdfs:comment>
-        <rdfs:label>Organisation Consented</rdfs:label>
+        <rdfs:label>organisation consented</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -633,7 +667,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Patient"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:comment>Indicates consents associated with this patient.</rdfs:comment>
-        <rdfs:label>Patient Consented</rdfs:label>
+        <rdfs:label>patient consented</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -658,7 +692,7 @@
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Practitioner"/>
         <rdfs:range rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:comment>Indicates consents associated with this practitioner or provider.</rdfs:comment>
-        <rdfs:label>Service Provider Consented</rdfs:label>
+        <rdfs:label>service provider consented</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -869,7 +903,7 @@ activity.</rdfs:comment>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment>The given name of some person.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <rdfs:label>Given name</rdfs:label>
+        <rdfs:label>given name</rdfs:label>
         <ns:term_status>testing</ns:term_status>
     </owl:DatatypeProperty>
     
@@ -921,7 +955,7 @@ activity.</rdfs:comment>
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Protocol"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment>The part of the body where data is collected or which a device was placed to collect health data.</rdfs:comment>
-        <rdfs:label>Body Site</rdfs:label>
+        <rdfs:label>body site</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -957,7 +991,7 @@ activity.</rdfs:comment>
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:comment>The date and time the consent was issued.</rdfs:comment>
-        <rdfs:label>Consent Date</rdfs:label>
+        <rdfs:label>consent date</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -969,7 +1003,7 @@ activity.</rdfs:comment>
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment>The URI for the specific organizational or jurisdictional policy referenced.</rdfs:comment>
-        <rdfs:label>Consent Policy URI</rdfs:label>
+        <rdfs:label>consent policy</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -981,7 +1015,7 @@ activity.</rdfs:comment>
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment>The URI for the computable regulation or policy rule.</rdfs:comment>
-        <rdfs:label>Consent Regulatory Rule URI</rdfs:label>
+        <rdfs:label>consent regulatory</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -993,7 +1027,7 @@ activity.</rdfs:comment>
         <rdfs:domain rdf:resource="https://w3id.org/pghdprovo#Consent"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:comment>A string reference (URL, ID, or description) pointing to the original source of the consent.</rdfs:comment>
-        <rdfs:label>Consent Source Reference</rdfs:label>
+        <rdfs:label>consent source reference</rdfs:label>
     </owl:DatatypeProperty>
     
 

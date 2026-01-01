@@ -40,6 +40,17 @@
         "value" : "2021-05-24",
         "type" : "label"
       } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://doi.org/10.1016/j.ijmedinf.2018.10.006",
+        "type" : "label"
+      }, {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://www.w3.org/TR/prov-o/",
+        "type" : "label"
+      } ],
       "versionInfo" : [ {
         "identifier" : "versionInfo",
         "language" : "undefined",
@@ -61,12 +72,18 @@
       "contributor" : [ {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Lucy Hederman, Trinity College Dublin",
+        "value" : "Dympna OSullivan, Technological University Dublin",
         "type" : "label"
       }, {
         "identifier" : "contributor",
         "language" : "undefined",
-        "value" : "Dympna OSullivan, Technological University Dublin",
+        "value" : "Lucy Hederman, Trinity College Dublin",
+        "type" : "label"
+      } ],
+      "includedInDataCatalog" : [ {
+        "identifier" : "includedInDataCatalog",
+        "language" : "undefined",
+        "value" : "http://bioportal.biootology.org/",
         "type" : "label"
       } ],
       "preferredNamespacePrefix" : [ {
@@ -75,22 +92,28 @@
         "value" : "pghdprovo",
         "type" : "label"
       } ],
-      "modified" : [ {
-        "identifier" : "modified",
-        "language" : "undefined",
-        "value" : "2025-11-24",
-        "type" : "label"
-      } ],
       "publisher" : [ {
         "identifier" : "publisher",
         "language" : "undefined",
         "value" : "Technological University Dublin",
         "type" : "label"
       } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2025-11-24",
+        "type" : "label"
+      } ],
+      "logo" : [ {
+        "identifier" : "logo",
+        "language" : "undefined",
+        "value" : "https://github.com/abdullahikawu/pghdprovo/blob/main/pghdprovo-logo.png?raw=true",
+        "type" : "iri"
+      } ],
       "bibliographicCitation" : [ {
         "identifier" : "bibliographicCitation",
         "language" : "undefined",
-        "value" : "Kawu, A.A., O’Sullivan, D. and Hederman, L., 2025, June. PGHDProvO: Provenance Based Ontology for Sharing Patient Generated Health Data (PGHD) with an Electronic Health Record (EHR). In International Conference on Artificial Intelligence in Medicine (pp. 197-201). Cham: Springer Nature Switzerland.",
+        "value" : "Kawu, A.A., Oâ€™Sullivan, D. and Hederman, L., 2025, June. PGHDProvO: Provenance Based Ontology for Sharing Patient Generated Health Data (PGHD) with an Electronic Health Record (EHR). In International Conference on Artificial Intelligence in Medicine (pp. 197-201). Cham: Springer Nature Switzerland.",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
@@ -103,6 +126,12 @@
         "identifier" : "issued",
         "language" : "undefined",
         "value" : "2024-05-24",
+        "type" : "label"
+      } ],
+      "doi" : [ {
+        "identifier" : "doi",
+        "language" : "en",
+        "value" : "10.1007/978-3-031-95841-0_37",
         "type" : "label"
       } ],
       "status" : [ {
@@ -166,7 +195,7 @@
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "32",
     "type" : "owl:Class"
   }, {
     "id" : "118",
@@ -223,7 +252,7 @@
     "id" : "45",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "32",
+    "id" : "31",
     "type" : "rdfs:Literal"
   }, {
     "id" : "28",
@@ -319,10 +348,10 @@
     "id" : "157",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "49",
+    "id" : "47",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "31",
+    "id" : "30",
     "type" : "owl:Thing"
   } ],
   "classAttribute" : [ {
@@ -424,7 +453,7 @@
       "IRI-based" : "Agent",
       "undefined" : "Agent"
     },
-    "subClasses" : [ "14", "9", "29" ],
+    "subClasses" : [ "14", "9", "32" ],
     "comment" : {
       "en" : "Something that bears responsibility for an activity taking place, for the existence of an entity, or for another agent's activity."
     },
@@ -901,7 +930,7 @@
       "en" : "A running software system acting as an agent in provenance descriptions."
     },
     "attributes" : [ "external" ],
-    "id" : "29",
+    "id" : "32",
     "superClasses" : [ "15" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
@@ -1072,7 +1101,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "32",
+    "id" : "31",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1352,7 +1381,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "49",
+    "id" : "47",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -1360,7 +1389,7 @@
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "31",
+    "id" : "30",
     "label" : {
       "undefined" : "Thing"
     }
@@ -1393,7 +1422,7 @@
     "id" : "26",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "30",
+    "id" : "29",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "33",
@@ -1418,10 +1447,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "46",
-    "type" : "owl:objectProperty"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "48",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "50",
     "type" : "owl:datatypeProperty"
@@ -1444,7 +1473,7 @@
     "id" : "65",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "47",
+    "id" : "49",
     "type" : "owl:objectProperty"
   }, {
     "id" : "69",
@@ -1541,10 +1570,10 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "113",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:allValuesFrom"
   }, {
     "id" : "114",
-    "type" : "owl:allValuesFrom"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "115",
     "type" : "owl:someValuesFrom"
@@ -1903,7 +1932,7 @@
     },
     "label" : {
       "IRI-based" : "givenName",
-      "undefined" : "Given name"
+      "undefined" : "given name"
     },
     "cardinality" : "1",
     "domain" : "14",
@@ -1944,12 +1973,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#atTime",
+        "value" : "http://www.w3.org/ns/prov#Generation",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Generation",
+        "value" : "http://www.w3.org/ns/prov#atTime",
         "type" : "iri"
       } ]
     },
@@ -1966,21 +1995,21 @@
   }, {
     "iri" : "http://www.w3.org/2006/vcard/ns#hasRole",
     "baseIri" : "http://www.w3.org/2006/vcard/ns",
-    "range" : "32",
+    "range" : "31",
     "label" : {
       "IRI-based" : "hasRole",
       "en" : "has role"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "en" : "To specify the function or part played in a particular situation by an individual."
     },
     "attributes" : [ "datatype", "external" ],
-    "id" : "30"
+    "id" : "29"
   }, {
     "range" : "35",
     "domain" : "34",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "33"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/name",
@@ -1990,7 +2019,7 @@
       "IRI-based" : "name",
       "undefined" : "name"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "undefined" : "A name for some thing."
     },
@@ -2016,7 +2045,7 @@
     "range" : "18",
     "label" : {
       "IRI-based" : "consentPatient",
-      "undefined" : "Consent Patient"
+      "undefined" : "consent patient"
     },
     "domain" : "40",
     "comment" : {
@@ -2060,15 +2089,25 @@
       "IRI-based" : "hasTelephone",
       "en" : "has telephone"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "en" : "To specify the telephone number for telephony communication with the object."
     },
     "attributes" : [ "datatype", "external" ],
     "id" : "44"
   }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "47",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "30",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "46"
+  }, {
     "iri" : "https://w3id.org/pghdprovo#collected",
-    "inverse" : "47",
+    "inverse" : "49",
     "baseIri" : "https://w3id.org/pghdprovo",
     "range" : "1",
     "label" : {
@@ -2080,16 +2119,6 @@
       "en" : "Indicates that an agent collected data from an entity. Inverse of pghdprovo:wasCollectedBy."
     },
     "attributes" : [ "object" ],
-    "id" : "46"
-  }, {
-    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
-    "baseIri" : "http://www.w3.org/2002/07/owl",
-    "range" : "49",
-    "label" : {
-      "IRI-based" : "topDataProperty"
-    },
-    "domain" : "31",
-    "attributes" : [ "datatype", "external" ],
     "id" : "48"
   }, {
     "iri" : "https://w3id.org/pghdprovo#address",
@@ -2119,7 +2148,7 @@
     "range" : "54",
     "label" : {
       "IRI-based" : "bodySite",
-      "undefined" : "Body Site"
+      "undefined" : "body site"
     },
     "domain" : "53",
     "comment" : {
@@ -2166,12 +2195,12 @@
       "qualifiedForm" : [ {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
         "type" : "iri"
       }, {
         "identifier" : "qualifiedForm",
         "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "value" : "http://www.w3.org/ns/prov#Derivation",
         "type" : "iri"
       } ]
     },
@@ -2208,7 +2237,7 @@
     "range" : "59",
     "label" : {
       "IRI-based" : "hasContextualInfo",
-      "undefined" : "Contain Contextual Info"
+      "undefined" : "contain contextual info"
     },
     "domain" : "1",
     "comment" : {
@@ -2257,7 +2286,7 @@
       "undefined" : "Ascribing a person engaged in the retrieval of health data. This could be the patient themself, a caregiver, a relative, or a friend."
     },
     "attributes" : [ "object" ],
-    "id" : "47"
+    "id" : "49"
   }, {
     "iri" : "http://www.w3.org/2006/vcard/ns#hasAddress",
     "baseIri" : "http://www.w3.org/2006/vcard/ns",
@@ -2266,7 +2295,7 @@
       "IRI-based" : "hasAddress",
       "en" : "has address"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "en" : "To specify the components of the delivery address for the vCard object."
     },
@@ -2278,7 +2307,7 @@
     "range" : "72",
     "label" : {
       "IRI-based" : "consentPolicy",
-      "undefined" : "Consent Policy URI"
+      "undefined" : "consent policy"
     },
     "domain" : "40",
     "comment" : {
@@ -2292,7 +2321,7 @@
     "range" : "10",
     "label" : {
       "IRI-based" : "consentServiceProvider",
-      "undefined" : "Consent Service Provider"
+      "undefined" : "consent service provider"
     },
     "domain" : "40",
     "comment" : {
@@ -2317,12 +2346,12 @@
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasInfluencedBy",
     "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "31",
+    "range" : "30",
     "label" : {
       "IRI-based" : "wasInfluencedBy",
       "undefined" : "was influenced by"
     },
-    "domain" : "31",
+    "domain" : "30",
     "subproperty" : [ "76", "55", "77", "78", "79", "80" ],
     "comment" : {
       "en" : "Indicates that one entity, activity, or agent was influenced by another."
@@ -2395,7 +2424,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "serviceProviderConsented",
-      "undefined" : "Service Provider Consented"
+      "undefined" : "service provider consented"
     },
     "domain" : "10",
     "comment" : {
@@ -2410,7 +2439,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "dataCoveredByConsent",
-      "undefined" : "Data Covered By Consent"
+      "undefined" : "data covered by consent"
     },
     "domain" : "1",
     "comment" : {
@@ -2453,7 +2482,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "patientConsented",
-      "undefined" : "Patient Consented"
+      "undefined" : "patient consented"
     },
     "domain" : "18",
     "comment" : {
@@ -2492,17 +2521,17 @@
   }, {
     "range" : "94",
     "domain" : "53",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "93"
   }, {
     "range" : "66",
     "domain" : "53",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "95"
   }, {
     "range" : "94",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "96"
   }, {
     "iri" : "https://w3id.org/pghdprovo#code",
@@ -2569,7 +2598,7 @@
     "comment" : {
       "en" : "An object property to express the accountability of an agent towards another agent. The subordinate agent acted on behalf of the responsible agent in an actual activity. "
     },
-    "attributes" : [ "someValues", "object", "external" ],
+    "attributes" : [ "object", "someValues", "external" ],
     "id" : "99"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
@@ -2627,7 +2656,7 @@
   }, {
     "range" : "10",
     "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "101"
   }, {
     "iri" : "https://w3id.org/pghdprovo#isSourceOf",
@@ -2646,13 +2675,52 @@
   }, {
     "range" : "66",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "102"
   }, {
     "range" : "53",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "103"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#wasAuthorizedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "wasAuthorizedBy",
+      "undefined" : "was authorized by"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A person who grant access to data requested."
+    },
+    "attributes" : [ "object", "allValues" ],
+    "id" : "104"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#PGHDRequestedBy",
+    "inverse" : "64",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "PGHDRequestedBy",
+      "undefined" : "PGHD requested by"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "A object property that declares the prov:agent responsible for the initializing a request for acquiring of patient Health data."
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "105"
+  }, {
+    "range" : "10",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "67",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "107"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAssociatedWith",
     "inverse" : "100",
@@ -2705,60 +2773,65 @@
       "en" : "An prov:Agent that had some (unspecified) responsibility for the occurrence of this prov:Activity."
     },
     "attributes" : [ "object", "allValues", "external" ],
-    "id" : "104"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#PGHDRequestedBy",
-    "inverse" : "64",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "10",
-    "label" : {
-      "IRI-based" : "PGHDRequestedBy",
-      "undefined" : "PGHD requested by"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "A object property that declares the prov:agent responsible for the initializing a request for acquiring of patient Health data."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "105"
-  }, {
-    "range" : "10",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "106"
-  }, {
-    "range" : "67",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "107"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#wasAuthorizedBy",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "18",
-    "label" : {
-      "IRI-based" : "wasAuthorizedBy",
-      "undefined" : "was authorized by"
-    },
-    "domain" : "4",
-    "comment" : {
-      "undefined" : "A person who grant access to data requested."
-    },
-    "attributes" : [ "object", "allValues" ],
     "id" : "108"
   }, {
-    "iri" : "https://w3id.org/pghdprovo#hasContextualInfo",
-    "inverse" : "63",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "59",
-    "label" : {
-      "IRI-based" : "hasContextualInfo",
-      "undefined" : "Contain Contextual Info"
+    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+    "inverse" : "56",
+    "baseIri" : "http://www.w3.org/ns/prov",
+    "range" : "34",
+    "annotations" : {
+      "inverse" : [ {
+        "identifier" : "inverse",
+        "language" : "undefined",
+        "value" : "hadDerivation",
+        "type" : "label"
+      } ],
+      "component" : [ {
+        "identifier" : "component",
+        "language" : "undefined",
+        "value" : "derivations",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov-o#",
+        "type" : "iri"
+      } ],
+      "definition" : [ {
+        "identifier" : "definition",
+        "language" : "en",
+        "value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
+        "type" : "label"
+      } ],
+      "category" : [ {
+        "identifier" : "category",
+        "language" : "undefined",
+        "value" : "starting-point",
+        "type" : "label"
+      } ],
+      "qualifiedForm" : [ {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
+        "type" : "iri"
+      }, {
+        "identifier" : "qualifiedForm",
+        "language" : "undefined",
+        "value" : "http://www.w3.org/ns/prov#Derivation",
+        "type" : "iri"
+      } ]
     },
+    "label" : {
+      "IRI-based" : "wasDerivedFrom",
+      "undefined" : "wasDerivedFrom"
+    },
+    "superproperty" : [ "57" ],
     "domain" : "1",
     "comment" : {
-      "undefined" : "Has some contextual information associated to the PGHD"
+      "en" : "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
     },
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues", "external" ],
     "id" : "109"
   }, {
     "iri" : "http://xmlns.com/foaf/0.1/gender",
@@ -2839,22 +2912,8 @@
     "comment" : {
       "en" : "A prov:Entity that was used by this prov:Activity. For example, :baking prov:used :spoon, :egg, :oven ."
     },
-    "attributes" : [ "someValues", "object", "external" ],
+    "attributes" : [ "object", "someValues", "external" ],
     "id" : "112"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#wasCollectedBy",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "14",
-    "label" : {
-      "IRI-based" : "wasCollectedBy",
-      "undefined" : "was collected by"
-    },
-    "domain" : "1",
-    "comment" : {
-      "undefined" : "Ascribing a person engaged in the retrieval of health data. This could be the patient themself, a caregiver, a relative, or a friend."
-    },
-    "attributes" : [ "someValues", "object" ],
-    "id" : "113"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
     "inverse" : "41",
@@ -2913,65 +2972,35 @@
       "en" : "Attribution is the ascribing of an entity to an agent."
     },
     "attributes" : [ "object", "allValues", "external" ],
-    "id" : "114"
+    "id" : "113"
   }, {
-    "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
-    "inverse" : "56",
-    "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "34",
-    "annotations" : {
-      "inverse" : [ {
-        "identifier" : "inverse",
-        "language" : "undefined",
-        "value" : "hadDerivation",
-        "type" : "label"
-      } ],
-      "component" : [ {
-        "identifier" : "component",
-        "language" : "undefined",
-        "value" : "derivations",
-        "type" : "label"
-      } ],
-      "isDefinedBy" : [ {
-        "identifier" : "isDefinedBy",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov-o#",
-        "type" : "iri"
-      } ],
-      "definition" : [ {
-        "identifier" : "definition",
-        "language" : "en",
-        "value" : "A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.",
-        "type" : "label"
-      } ],
-      "category" : [ {
-        "identifier" : "category",
-        "language" : "undefined",
-        "value" : "starting-point",
-        "type" : "label"
-      } ],
-      "qualifiedForm" : [ {
-        "identifier" : "qualifiedForm",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#Derivation",
-        "type" : "iri"
-      }, {
-        "identifier" : "qualifiedForm",
-        "language" : "undefined",
-        "value" : "http://www.w3.org/ns/prov#qualifiedDerivation",
-        "type" : "iri"
-      } ]
-    },
+    "iri" : "https://w3id.org/pghdprovo#wasCollectedBy",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "14",
     "label" : {
-      "IRI-based" : "wasDerivedFrom",
-      "undefined" : "wasDerivedFrom"
+      "IRI-based" : "wasCollectedBy",
+      "undefined" : "was collected by"
     },
-    "superproperty" : [ "57" ],
     "domain" : "1",
     "comment" : {
-      "en" : "The more specific subproperties of prov:wasDerivedFrom (i.e., prov:wasQuotedFrom, prov:wasRevisionOf, prov:hadPrimarySource) should be used when applicable."
+      "undefined" : "Ascribing a person engaged in the retrieval of health data. This could be the patient themself, a caregiver, a relative, or a friend."
     },
-    "attributes" : [ "someValues", "object", "external" ],
+    "attributes" : [ "object", "someValues" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#hasContextualInfo",
+    "inverse" : "63",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "hasContextualInfo",
+      "undefined" : "contain contextual info"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "Has some contextual information associated to the PGHD"
+    },
+    "attributes" : [ "object", "someValues" ],
     "id" : "115"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
@@ -3025,20 +3054,6 @@
     },
     "attributes" : [ "object", "allValues", "external" ],
     "id" : "116"
-  }, {
-    "iri" : "https://w3id.org/pghdprovo#appName",
-    "baseIri" : "https://w3id.org/pghdprovo",
-    "range" : "118",
-    "label" : {
-      "IRI-based" : "appName",
-      "undefined" : "app name"
-    },
-    "domain" : "68",
-    "comment" : {
-      "undefined" : "The name of the software application utilised by a patient and practitioner."
-    },
-    "attributes" : [ "someValues", "datatype" ],
-    "id" : "117"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasAttributedTo",
     "inverse" : "41",
@@ -3096,7 +3111,21 @@
     "comment" : {
       "en" : "Attribution is the ascribing of an entity to an agent."
     },
-    "attributes" : [ "someValues", "object", "external" ],
+    "attributes" : [ "object", "someValues", "external" ],
+    "id" : "117"
+  }, {
+    "iri" : "https://w3id.org/pghdprovo#appName",
+    "baseIri" : "https://w3id.org/pghdprovo",
+    "range" : "118",
+    "label" : {
+      "IRI-based" : "appName",
+      "undefined" : "app name"
+    },
+    "domain" : "68",
+    "comment" : {
+      "undefined" : "The name of the software application utilised by a patient and practitioner."
+    },
+    "attributes" : [ "datatype", "someValues" ],
     "id" : "119"
   }, {
     "iri" : "https://w3id.org/pghdprovo#deviceName",
@@ -3133,7 +3162,7 @@
     "range" : "40",
     "label" : {
       "IRI-based" : "organisationConsented",
-      "undefined" : "Organisation Consented"
+      "undefined" : "organisation consented"
     },
     "domain" : "9",
     "comment" : {
@@ -3257,7 +3286,7 @@
   }, {
     "range" : "94",
     "domain" : "66",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "144"
   }, {
     "iri" : "http://www.w3.org/ns/prov#startedAtTime",
@@ -3316,7 +3345,7 @@
     "range" : "148",
     "label" : {
       "IRI-based" : "consentSourceReference",
-      "undefined" : "Consent Source Reference"
+      "undefined" : "consent source reference"
     },
     "domain" : "40",
     "comment" : {
@@ -3384,7 +3413,7 @@
       "IRI-based" : "hasEmail",
       "undefined" : "has email"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "undefined" : "To specify the electronic mail address for communication with the object"
     },
@@ -3425,7 +3454,7 @@
     "range" : "1",
     "label" : {
       "IRI-based" : "consentProvisionData",
-      "undefined" : "Consent Provision Data"
+      "undefined" : "consent provision data"
     },
     "domain" : "40",
     "comment" : {
@@ -3467,7 +3496,7 @@
     "range" : "122",
     "label" : {
       "IRI-based" : "consentDate",
-      "undefined" : "Consent Date"
+      "undefined" : "consent date"
     },
     "domain" : "40",
     "comment" : {
@@ -3478,12 +3507,12 @@
   }, {
     "iri" : "http://www.w3.org/ns/prov#generated",
     "baseIri" : "http://www.w3.org/ns/prov",
-    "range" : "31",
+    "range" : "30",
     "label" : {
       "IRI-based" : "generated",
       "undefined" : "generated"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "en" : "Relates an activity to an entity that it generated."
     },
@@ -3574,7 +3603,7 @@
   }, {
     "range" : "59",
     "domain" : "58",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "162"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasGeneratedBy",
@@ -3631,7 +3660,7 @@
   }, {
     "range" : "59",
     "domain" : "66",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "163"
   }, {
     "iri" : "https://w3id.org/pghdprovo#calibrationStatus",
@@ -3650,72 +3679,72 @@
   }, {
     "range" : "59",
     "domain" : "94",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "165"
   }, {
     "range" : "59",
     "domain" : "53",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "166"
   }, {
     "range" : "15",
     "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "167"
   }, {
     "range" : "15",
-    "domain" : "29",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
     "range" : "15",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "169"
   }, {
-    "range" : "29",
+    "range" : "32",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "170"
   }, {
-    "range" : "29",
+    "range" : "32",
     "domain" : "14",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
     "range" : "68",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "172"
   }, {
     "range" : "59",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "173"
   }, {
     "range" : "1",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "174"
   }, {
     "range" : "59",
     "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "175"
   }, {
     "range" : "1",
     "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "176"
   }, {
     "range" : "1",
     "domain" : "59",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "177"
   }, {
     "range" : "27",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
     "iri" : "http://purl.org/dc/elements/1.1/identifier",
@@ -3733,7 +3762,7 @@
       "IRI-based" : "identifier",
       "undefined" : "Identifier"
     },
-    "domain" : "31",
+    "domain" : "30",
     "comment" : {
       "undefined" : "Recommended practice is to identify the resource by means of a string conforming to an identification system."
     },
@@ -3742,7 +3771,7 @@
   }, {
     "range" : "14",
     "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "180"
   }, {
     "iri" : "https://w3id.org/pghdprovo#authorized",
@@ -3776,52 +3805,52 @@
   }, {
     "range" : "14",
     "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
     "range" : "14",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "183"
   }, {
     "range" : "17",
     "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
     "range" : "14",
     "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "185"
   }, {
     "range" : "27",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "186"
   }, {
     "range" : "27",
     "domain" : "68",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "187"
   }, {
     "range" : "14",
     "domain" : "16",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "188"
   }, {
     "range" : "27",
     "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "189"
   }, {
     "range" : "27",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
     "range" : "27",
     "domain" : "59",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "191"
   }, {
     "iri" : "https://w3id.org/pghdprovo#consentOrganisation",
@@ -3829,7 +3858,7 @@
     "range" : "9",
     "label" : {
       "IRI-based" : "consentOrganisation",
-      "undefined" : "Consent Organization"
+      "undefined" : "consent organization"
     },
     "domain" : "40",
     "comment" : {
@@ -3868,7 +3897,7 @@
   }, {
     "range" : "22",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "194"
   }, {
     "iri" : "https://w3id.org/pghdprovo#consentRegulatory",
@@ -3876,7 +3905,7 @@
     "range" : "123",
     "label" : {
       "IRI-based" : "consentRegulatory",
-      "undefined" : "Consent Regulatory Rule URI"
+      "undefined" : "consent regulatory"
     },
     "domain" : "40",
     "comment" : {

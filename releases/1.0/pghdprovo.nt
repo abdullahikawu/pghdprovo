@@ -10,13 +10,18 @@
 <https://w3id.org/pghdprovo> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/pghdprovo> <http://purl.org/dc/terms/modified> "2025-11-24"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://w3id.org/pghdprovo> <http://purl.org/dc/terms/publisher> "Technological University Dublin" .
+<https://w3id.org/pghdprovo> <http://purl.org/dc/terms/source> "https://doi.org/10.1016/j.ijmedinf.2018.10.006" .
+<https://w3id.org/pghdprovo> <http://purl.org/dc/terms/source> "https://www.w3.org/TR/prov-o/" .
 <https://w3id.org/pghdprovo> <http://purl.org/dc/terms/title> "PGHDPROVO" .
+<https://w3id.org/pghdprovo> <http://purl.org/ontology/bibo/doi> "10.1007/978-3-031-95841-0_37"@en .
 <https://w3id.org/pghdprovo> <http://purl.org/ontology/bibo/status> "http://purl.org/ontology/bibo/status/published" .
 <https://w3id.org/pghdprovo> <http://purl.org/vocab/vann/preferredNamespacePrefix> "pghdprovo" .
 <https://w3id.org/pghdprovo> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/pghdprovo#" .
 <https://w3id.org/pghdprovo> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Generated Health Data Provenance Ontology"@en .
 <https://w3id.org/pghdprovo> <http://www.w3.org/2002/07/owl#priorVersion> <https://w3id.org/pghdprovo/1.0> .
 <https://w3id.org/pghdprovo> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://w3id.org/pghdprovo> <http://xmlns.com/foaf/0.1/logo> <https://github.com/abdullahikawu/pghdprovo/blob/main/pghdprovo-logo.png?raw=true> .
+<https://w3id.org/pghdprovo> <https://schema.org/includedInDataCatalog> "http://bioportal.biootology.org/" .
 <https://w3id.org/pghdprovo> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
 # 
 # 
@@ -54,8 +59,14 @@
 # http://purl.org/dc/terms/publisher
 <http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/ontology/bibo/status
 <http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -98,6 +109,12 @@
 # 
 # http://www.w3.org/ns/prov#qualifiedForm
 <http://www.w3.org/ns/prov#qualifiedForm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/logo
+<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/includedInDataCatalog
+<https://schema.org/includedInDataCatalog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://w3id.org/mod#createdWith
 <https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -274,28 +291,28 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#consentOrganisation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentOrganisation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Organization> .
 <https://w3id.org/pghdprovo#consentOrganisation> <http://www.w3.org/2000/01/rdf-schema#comment> "The organization managing or enforcing this consent." .
-<https://w3id.org/pghdprovo#consentOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Organization" .
+<https://w3id.org/pghdprovo#consentOrganisation> <http://www.w3.org/2000/01/rdf-schema#label> "consent organization" .
 # 
 # https://w3id.org/pghdprovo#consentPatient
 <https://w3id.org/pghdprovo#consentPatient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/pghdprovo#consentPatient> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentPatient> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#Patient> .
 <https://w3id.org/pghdprovo#consentPatient> <http://www.w3.org/2000/01/rdf-schema#comment> "The patient to whom this consent applies." .
-<https://w3id.org/pghdprovo#consentPatient> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Patient" .
+<https://w3id.org/pghdprovo#consentPatient> <http://www.w3.org/2000/01/rdf-schema#label> "consent patient" .
 # 
 # https://w3id.org/pghdprovo#consentProvisionData
 <https://w3id.org/pghdprovo#consentProvisionData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/pghdprovo#consentProvisionData> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentProvisionData> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#PGHD> .
 <https://w3id.org/pghdprovo#consentProvisionData> <http://www.w3.org/2000/01/rdf-schema#comment> "The specific observations (data) covered by this consent rule." .
-<https://w3id.org/pghdprovo#consentProvisionData> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Provision Data" .
+<https://w3id.org/pghdprovo#consentProvisionData> <http://www.w3.org/2000/01/rdf-schema#label> "consent provision data" .
 # 
 # https://w3id.org/pghdprovo#consentServiceProvider
 <https://w3id.org/pghdprovo#consentServiceProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/pghdprovo#consentServiceProvider> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentServiceProvider> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#Practitioner> .
 <https://w3id.org/pghdprovo#consentServiceProvider> <http://www.w3.org/2000/01/rdf-schema#comment> "The practitioner or provider associated with the consent agreement." .
-<https://w3id.org/pghdprovo#consentServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Service Provider" .
+<https://w3id.org/pghdprovo#consentServiceProvider> <http://www.w3.org/2000/01/rdf-schema#label> "consent service provider" .
 # 
 # https://w3id.org/pghdprovo#contributed
 <https://w3id.org/pghdprovo#contributed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -310,7 +327,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#dataCoveredByConsent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#PGHD> .
 <https://w3id.org/pghdprovo#dataCoveredByConsent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#dataCoveredByConsent> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates consents that cover this specific PGHD data." .
-<https://w3id.org/pghdprovo#dataCoveredByConsent> <http://www.w3.org/2000/01/rdf-schema#label> "Data Covered By Consent" .
+<https://w3id.org/pghdprovo#dataCoveredByConsent> <http://www.w3.org/2000/01/rdf-schema#label> "data covered by consent" .
 # 
 # https://w3id.org/pghdprovo#hadDelegate
 <https://w3id.org/pghdprovo#hadDelegate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -325,7 +342,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#hasContextualInfo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#PGHD> .
 <https://w3id.org/pghdprovo#hasContextualInfo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#ContextualInfo> .
 <https://w3id.org/pghdprovo#hasContextualInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Has some contextual information associated to the PGHD" .
-<https://w3id.org/pghdprovo#hasContextualInfo> <http://www.w3.org/2000/01/rdf-schema#label> "Contain Contextual Info" .
+<https://w3id.org/pghdprovo#hasContextualInfo> <http://www.w3.org/2000/01/rdf-schema#label> "contain contextual info" .
 # 
 # https://w3id.org/pghdprovo#hasStaff
 <https://w3id.org/pghdprovo#hasStaff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -362,7 +379,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#organisationConsented> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/prov#Organization> .
 <https://w3id.org/pghdprovo#organisationConsented> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#organisationConsented> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates consents managed or enforced by the organization." .
-<https://w3id.org/pghdprovo#organisationConsented> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation Consented" .
+<https://w3id.org/pghdprovo#organisationConsented> <http://www.w3.org/2000/01/rdf-schema#label> "organisation consented" .
 # 
 # https://w3id.org/pghdprovo#patientConsented
 <https://w3id.org/pghdprovo#patientConsented> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -370,7 +387,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#patientConsented> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Patient> .
 <https://w3id.org/pghdprovo#patientConsented> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#patientConsented> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates consents associated with this patient." .
-<https://w3id.org/pghdprovo#patientConsented> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Consented" .
+<https://w3id.org/pghdprovo#patientConsented> <http://www.w3.org/2000/01/rdf-schema#label> "patient consented" .
 # 
 # https://w3id.org/pghdprovo#requested
 <https://w3id.org/pghdprovo#requested> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -385,7 +402,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#serviceProviderConsented> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Practitioner> .
 <https://w3id.org/pghdprovo#serviceProviderConsented> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#serviceProviderConsented> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates consents associated with this practitioner or provider." .
-<https://w3id.org/pghdprovo#serviceProviderConsented> <http://www.w3.org/2000/01/rdf-schema#label> "Service Provider Consented" .
+<https://w3id.org/pghdprovo#serviceProviderConsented> <http://www.w3.org/2000/01/rdf-schema#label> "service provider consented" .
 # 
 # https://w3id.org/pghdprovo#wasAuthorizedBy
 <https://w3id.org/pghdprovo#wasAuthorizedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -522,7 +539,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <http://xmlns.com/foaf/0.1/givenName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <http://xmlns.com/foaf/0.1/givenName> <http://www.w3.org/2000/01/rdf-schema#comment> "The given name of some person." .
 <http://xmlns.com/foaf/0.1/givenName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://xmlns.com/foaf/0.1/> .
-<http://xmlns.com/foaf/0.1/givenName> <http://www.w3.org/2000/01/rdf-schema#label> "Given name" .
+<http://xmlns.com/foaf/0.1/givenName> <http://www.w3.org/2000/01/rdf-schema#label> "given name" .
 <http://xmlns.com/foaf/0.1/givenName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 # 
 # http://xmlns.com/foaf/0.1/name
@@ -554,7 +571,7 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#bodySite> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Protocol> .
 <https://w3id.org/pghdprovo#bodySite> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/pghdprovo#bodySite> <http://www.w3.org/2000/01/rdf-schema#comment> "The part of the body where data is collected or which a device was placed to collect health data." .
-<https://w3id.org/pghdprovo#bodySite> <http://www.w3.org/2000/01/rdf-schema#label> "Body Site" .
+<https://w3id.org/pghdprovo#bodySite> <http://www.w3.org/2000/01/rdf-schema#label> "body site" .
 # 
 # https://w3id.org/pghdprovo#calibrationStatus
 <https://w3id.org/pghdprovo#calibrationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -575,28 +592,28 @@ _:genid2 <http://www.w3.org/2000/01/rdf-schema#comment> "Derivation is a particu
 <https://w3id.org/pghdprovo#consentDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
 <https://w3id.org/pghdprovo#consentDate> <http://www.w3.org/2000/01/rdf-schema#comment> "The date and time the consent was issued." .
-<https://w3id.org/pghdprovo#consentDate> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Date" .
+<https://w3id.org/pghdprovo#consentDate> <http://www.w3.org/2000/01/rdf-schema#label> "consent date" .
 # 
 # https://w3id.org/pghdprovo#consentPolicy
 <https://w3id.org/pghdprovo#consentPolicy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/pghdprovo#consentPolicy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentPolicy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/pghdprovo#consentPolicy> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI for the specific organizational or jurisdictional policy referenced." .
-<https://w3id.org/pghdprovo#consentPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Policy URI" .
+<https://w3id.org/pghdprovo#consentPolicy> <http://www.w3.org/2000/01/rdf-schema#label> "consent policy" .
 # 
 # https://w3id.org/pghdprovo#consentRegulatory
 <https://w3id.org/pghdprovo#consentRegulatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/pghdprovo#consentRegulatory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentRegulatory> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/pghdprovo#consentRegulatory> <http://www.w3.org/2000/01/rdf-schema#comment> "The URI for the computable regulation or policy rule." .
-<https://w3id.org/pghdprovo#consentRegulatory> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Regulatory Rule URI" .
+<https://w3id.org/pghdprovo#consentRegulatory> <http://www.w3.org/2000/01/rdf-schema#label> "consent regulatory" .
 # 
 # https://w3id.org/pghdprovo#consentSourceReference
 <https://w3id.org/pghdprovo#consentSourceReference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://w3id.org/pghdprovo#consentSourceReference> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/pghdprovo#Consent> .
 <https://w3id.org/pghdprovo#consentSourceReference> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://w3id.org/pghdprovo#consentSourceReference> <http://www.w3.org/2000/01/rdf-schema#comment> "A string reference (URL, ID, or description) pointing to the original source of the consent." .
-<https://w3id.org/pghdprovo#consentSourceReference> <http://www.w3.org/2000/01/rdf-schema#label> "Consent Source Reference" .
+<https://w3id.org/pghdprovo#consentSourceReference> <http://www.w3.org/2000/01/rdf-schema#label> "consent source reference" .
 # 
 # https://w3id.org/pghdprovo#dataName
 <https://w3id.org/pghdprovo#dataName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
